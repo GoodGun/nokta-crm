@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47528C24-BEE6-4330-9C38-493B26913C06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NoktaCRM.Web.UI</RootNamespace>
+    <AssemblyName>NoktaCRM.Web.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML">
+      <HintPath>..\SolutionItems\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\SolutionItems\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\SolutionItems\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Calendar2_Net">
+      <HintPath>..\SolutionItems\obout_Calendar2_Net.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Grid_NET">
+      <HintPath>..\SolutionItems\obout_Grid_NET.dll</HintPath>
+    </Reference>
+    <Reference Include="obout_Interface">
+      <HintPath>..\SolutionItems\obout_Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlUtil.cs" />
+    <Compile Include="MButton.cs" />
+    <Compile Include="MCalendar.cs" />
+    <Compile Include="MCheckbox.cs" />
+    <Compile Include="MCheckboxList.cs" />
+    <Compile Include="MCompareValidator.cs" />
+    <Compile Include="MCustomValidator.cs" />
+    <Compile Include="MDatePicker.cs" />
+    <Compile Include="MLink.cs" />
+    <Compile Include="MLinkButton.cs" />
+    <Compile Include="MLiteral.cs" />
+    <Compile Include="MModernButton.cs" />
+    <Compile Include="MNumberbox.cs" />
+    <Compile Include="MRadiolist.cs" />
+    <Compile Include="MRangeValidator.cs" />
+    <Compile Include="MRegexValidator.cs" />
+    <Compile Include="MReport.cs" />
+    <Compile Include="MReqValidator.cs" />
+    <Compile Include="MTablist.cs" />
+    <Compile Include="MTextbox.cs" />
+    <Compile Include="MTooltip.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MGridView.cs" />
+    <Compile Include="MListBox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{28418E3D-43AA-4690-8675-15ECB2DEAD6C}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="bin\ClosedXML.dll" />
+    <Content Include="bin\ClosedXML.XML" />
+    <Content Include="bin\DocumentFormat.OpenXml.dll" />
+    <Content Include="bin\itextsharp.dll" />
+    <Content Include="bin\itextsharp.pdfa.dll" />
+    <Content Include="bin\obout_Calendar2_Net.dll" />
+    <Content Include="bin\obout_Grid_NET.dll" />
+    <Content Include="bin\obout_Grid_NET.pdb" />
+    <Content Include="bin\obout_Interface.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

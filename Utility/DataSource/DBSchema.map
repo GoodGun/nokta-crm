@@ -1,0 +1,193 @@
+﻿<DBTables>
+	<DBTable Name="Activity">
+		<DBColumns>
+			<DBColumn NetName="ActivityID" IsPrimaryKey="True" />
+			<DBColumn NetName="OrderID" IsPrimaryKey="False" />
+			<DBColumn NetName="ActivityCode" IsPrimaryKey="False" />
+			<DBColumn NetName="Name" IsPrimaryKey="False" />
+			<DBColumn NetName="Description" IsPrimaryKey="False" />
+			<DBColumn NetName="MemberID" IsPrimaryKey="False" />
+			<DBColumn NetName="CustomerID" IsPrimaryKey="False" />
+			<DBColumn NetName="ContactID" IsPrimaryKey="False" />
+			<DBColumn NetName="ActivityTypeID" IsPrimaryKey="False" />
+			<DBColumn NetName="ActivityStatusID" IsPrimaryKey="False" />
+			<DBColumn NetName="CreatedBy" IsPrimaryKey="False" />
+			<DBColumn NetName="ActivityDate" IsPrimaryKey="False" />
+			<DBColumn NetName="CreateDate" IsPrimaryKey="False" />
+			<DBColumn NetName="UpdateDate" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="Address">
+		<DBColumns>
+			<DBColumn NetName="AddressID" IsPrimaryKey="True" />
+			<DBColumn NetName="CustomerID" IsPrimaryKey="False" />
+			<DBColumn NetName="AddressName" IsPrimaryKey="False" />
+			<DBColumn NetName="IsBillingAddress" IsPrimaryKey="False" />
+			<DBColumn NetName="IsUsed" IsPrimaryKey="False" />
+			<DBColumn NetName="Name" IsPrimaryKey="False" />
+			<DBColumn NetName="AddressLine" IsPrimaryKey="False" />
+			<DBColumn NetName="CityID" IsPrimaryKey="False" />
+			<DBColumn NetName="DistrictID" IsPrimaryKey="False" />
+			<DBColumn NetName="AreaID" IsPrimaryKey="False" />
+			<DBColumn NetName="TaxOffice" IsPrimaryKey="False" />
+			<DBColumn NetName="TaxNo" IsPrimaryKey="False" />
+			<DBColumn NetName="ZipCode" IsPrimaryKey="False" />
+			<DBColumn NetName="Phone" IsPrimaryKey="False" />
+			<DBColumn NetName="CreateDate" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="City">
+		<DBColumns>
+			<DBColumn NetName="CityID" IsPrimaryKey="True" />
+			<DBColumn NetName="CountryID" IsPrimaryKey="False" />
+			<DBColumn NetName="CityName" IsPrimaryKey="False" />
+			<DBColumn NetName="Status" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="Contact">
+		<DBColumns>
+			<DBColumn NetName="ContactID" IsPrimaryKey="True" />
+			<DBColumn NetName="ContactCode" IsPrimaryKey="False" />
+			<DBColumn NetName="MemberID" IsPrimaryKey="False" />
+			<DBColumn NetName="Name" IsPrimaryKey="False" />
+			<DBColumn NetName="Surname" IsPrimaryKey="False" />
+			<DBColumn NetName="Title" IsPrimaryKey="False" />
+			<DBColumn NetName="Phone" IsPrimaryKey="False" />
+			<DBColumn NetName="GSM" IsPrimaryKey="False" />
+			<DBColumn NetName="CustomerID" IsPrimaryKey="False" />
+			<DBColumn NetName="AddressID" IsPrimaryKey="False" />
+			<DBColumn NetName="Gender" IsPrimaryKey="False" />
+			<DBColumn NetName="Email" IsPrimaryKey="False" />
+			<DBColumn NetName="Description" IsPrimaryKey="False" />
+			<DBColumn NetName="CreateDate" IsPrimaryKey="False" />
+			<DBColumn NetName="UpdateDate" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="Content">
+		<DBColumns>
+			<DBColumn NetName="ContentID" IsPrimaryKey="True" />
+			<DBColumn NetName="Title" IsPrimaryKey="False" />
+			<DBColumn NetName="Body" IsPrimaryKey="False" />
+			<DBColumn NetName="MemberID" IsPrimaryKey="False" />
+			<DBColumn NetName="CreateDate" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="Country">
+		<DBColumns>
+			<DBColumn NetName="CountryID" IsPrimaryKey="True" />
+			<DBColumn NetName="CountryName" IsPrimaryKey="False" />
+			<DBColumn NetName="Status" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="Customer">
+		<DBColumns>
+			<DBColumn NetName="CustomerID" IsPrimaryKey="True" />
+			<DBColumn NetName="CustomerCode" IsPrimaryKey="False" />
+			<DBColumn NetName="ReferenceNo" IsPrimaryKey="False" />
+			<DBColumn NetName="MemberID" IsPrimaryKey="False" />
+			<DBColumn NetName="SellerMemberID" IsPrimaryKey="False" />
+			<DBColumn NetName="Name" IsPrimaryKey="False" />
+			<DBColumn NetName="CustomerTypeID" IsPrimaryKey="False" />
+			<DBColumn NetName="SectorTypeID" IsPrimaryKey="False" />
+			<DBColumn NetName="MainReseller" IsPrimaryKey="False" />
+			<DBColumn NetName="Reseller" IsPrimaryKey="False" />
+			<DBColumn NetName="Description" IsPrimaryKey="False" />
+			<DBColumn NetName="Code1" IsPrimaryKey="False" />
+			<DBColumn NetName="Code2" IsPrimaryKey="False" />
+			<DBColumn NetName="Code3" IsPrimaryKey="False" />
+			<DBColumn NetName="BillingAddressID" IsPrimaryKey="False" />
+			<DBColumn NetName="DeliveryAddressID" IsPrimaryKey="False" />
+			<DBColumn NetName="CreateDate" IsPrimaryKey="False" />
+			<DBColumn NetName="UpdateDate" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="District">
+		<DBColumns>
+			<DBColumn NetName="DistrictID" IsPrimaryKey="True" />
+			<DBColumn NetName="CityID" IsPrimaryKey="False" />
+			<DBColumn NetName="DistrictName" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="Member">
+		<DBColumns>
+			<DBColumn NetName="MemberID" IsPrimaryKey="True" />
+			<DBColumn NetName="Name" IsPrimaryKey="False" />
+			<DBColumn NetName="Surname" IsPrimaryKey="False" />
+			<DBColumn NetName="Username" IsPrimaryKey="False" />
+			<DBColumn NetName="Email" IsPrimaryKey="False" />
+			<DBColumn NetName="PasswordHashed" IsPrimaryKey="False" />
+			<DBColumn NetName="MemberTypeID" IsPrimaryKey="False" />
+			<DBColumn NetName="Status" IsPrimaryKey="False" />
+			<DBColumn NetName="CreateDate" IsPrimaryKey="False" />
+			<DBColumn NetName="LastUpdate" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="OrderDetail">
+		<DBColumns>
+			<DBColumn NetName="OrderDetailID" IsPrimaryKey="True" />
+			<DBColumn NetName="OrderID" IsPrimaryKey="False" />
+			<DBColumn NetName="ProductID" IsPrimaryKey="False" />
+			<DBColumn NetName="Quantity" IsPrimaryKey="False" />
+			<DBColumn NetName="TaxRate" IsPrimaryKey="False" />
+			<DBColumn NetName="UnitPrice" IsPrimaryKey="False" />
+			<DBColumn NetName="DiscountAmount" IsPrimaryKey="False" />
+			<DBColumn NetName="TotalPrice" IsPrimaryKey="False" />
+			<DBColumn NetName="FinalPrice" IsPrimaryKey="False" />
+			<DBColumn NetName="CurrencyID" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="OrderMain">
+		<DBColumns>
+			<DBColumn NetName="OrderID" IsPrimaryKey="True" />
+			<DBColumn NetName="OrderCode" IsPrimaryKey="False" />
+			<DBColumn NetName="MemberID" IsPrimaryKey="False" />
+			<DBColumn NetName="CustomerID" IsPrimaryKey="False" />
+			<DBColumn NetName="ContactID" IsPrimaryKey="False" />
+			<DBColumn NetName="AddressID" IsPrimaryKey="False" />
+			<DBColumn NetName="ReferenceNo" IsPrimaryKey="False" />
+			<DBColumn NetName="OrderTypeID" IsPrimaryKey="False" />
+			<DBColumn NetName="OrderContent" IsPrimaryKey="False" />
+			<DBColumn NetName="CargoName" IsPrimaryKey="False" />
+			<DBColumn NetName="BuyerOrderNo" IsPrimaryKey="False" />
+			<DBColumn NetName="Description" IsPrimaryKey="False" />
+			<DBColumn NetName="TotalPrice" IsPrimaryKey="False" />
+			<DBColumn NetName="TaxAmount" IsPrimaryKey="False" />
+			<DBColumn NetName="DiscountAmount" IsPrimaryKey="False" />
+			<DBColumn NetName="FinalPrice" IsPrimaryKey="False" />
+			<DBColumn NetName="OrderStatusID" IsPrimaryKey="False" />
+			<DBColumn NetName="FileName" IsPrimaryKey="False" />
+			<DBColumn NetName="OrderDate" IsPrimaryKey="False" />
+			<DBColumn NetName="CreateDate" IsPrimaryKey="False" />
+			<DBColumn NetName="UpdateDate" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="Params">
+		<DBColumns>
+			<DBColumn NetName="TypeID" IsPrimaryKey="True" />
+			<DBColumn NetName="TypeCode" IsPrimaryKey="False" />
+			<DBColumn NetName="TypeName" IsPrimaryKey="False" />
+			<DBColumn NetName="Description" IsPrimaryKey="False" />
+			<DBColumn NetName="ObjectValue" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable>
+	<DBTable Name="Product">
+		<DBColumns>
+			<DBColumn NetName="ProductID" IsPrimaryKey="True" />
+			<DBColumn NetName="ProductCode" IsPrimaryKey="False" />
+			<DBColumn NetName="ReferenceNo" IsPrimaryKey="False" />
+			<DBColumn NetName="MemberID" IsPrimaryKey="False" />
+			<DBColumn NetName="ProductName" IsPrimaryKey="False" />
+			<DBColumn NetName="ProductGroup" IsPrimaryKey="False" />
+			<DBColumn NetName="ProductType" IsPrimaryKey="False" />
+			<DBColumn NetName="Unit" IsPrimaryKey="False" />
+			<DBColumn NetName="Tax" IsPrimaryKey="False" />
+			<DBColumn NetName="Producer" IsPrimaryKey="False" />
+			<DBColumn NetName="Price1" IsPrimaryKey="False" />
+			<DBColumn NetName="Price2" IsPrimaryKey="False" />
+			<DBColumn NetName="CurrencyPrice" IsPrimaryKey="False" />
+			<DBColumn NetName="Description" IsPrimaryKey="False" />
+			<DBColumn NetName="Status" IsPrimaryKey="False" />
+			<DBColumn NetName="CreateDate" IsPrimaryKey="False" />
+			<DBColumn NetName="UpdateDate" IsPrimaryKey="False" />
+		</DBColumns>
+	</DBTable></DBTables>

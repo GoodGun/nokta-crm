@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item Name="*" Value="*" />
+
+  <Item Name="sender.info" Value="Cepstop Bilgilendirme" />
+  <Item Name="sender.destek" Value="Cepstop Kayıt" />
+  <Item Name="sender.siparis" Value="Cepstop Sipariş" />
+  <Item Name="sender.kayit" Value="Cepstop Kayıt" />
+  <Item Name="no.such.serial" Value="Cepstop Aracılığıyla Satılmıştır" />
+  <Item Name="Detail.Serial" Value="İlan Detayı" />
+  <Item Name="Detail.Model" Value="Model Detayı" />
+
+  <Item Name="brand.apple" Value="Apple" />
+  <Item Name="brand.samsung" Value="Samsung" />
+  <Item Name="brand.sony" Value="Sony" />
+  <Item Name="brand.htc" Value="HTC" />
+  <Item Name="brand.lg" Value="LG" />
+  <Item Name="brand.nokia" Value="Nokia" />
+  <Item Name="brand.blackberry" Value="Blackberry" />
+
+  <Item Name="certificate.label" Value="Sertifika" />
+
+  <Item Name="placeholder.buy" Value="Satın almak istediğiniz ürünün adını yazın..." />
+  <Item Name="placeholder.sell" Value="Satmak istediğiniz ürünün adını yazın..." />
+  <Item Name="header.pickup" Value="Kapınızdan&lt;br /&gt;alıyoruz" />
+  <Item Name="header.cod" Value="Satıcılara&lt;br /&gt;Kargo Bedava" />
+  <Item Name="header.contact" Value="İletişim&lt;br /&gt;(0212) 274 57 11" />
+  <Item Name="form.LogTypeID" Value="İletişim nedeni" />
+  <Item Name="form.Message" Value="Mesajınız" />
+  <Item Name="export" Value="Listeyi kaydet" />
+  <Item Name="message.successful" Value="Mesajınız kaydedildi. İlginiz için teşekkürler." />
+  <Item Name="question.successful" Value="Sorunuz kaydedildi. İlginiz için teşekkürler." />
+  <Item Name="form.CargoKeyUsed" Value="Kargoya verildi mi?" />
+  <Item Name="form.CargoKey" Value="Kargo kodu" />
+  <Item Name="form.BuyPrice" Value="Alış fiyatı" />
+  <Item Name="form.CargoPrice" Value="Kargo fiyatı" />
+  <Item Name="form.CategoryID" Value="Kategori" />
+  <Item Name="form.ChoiceID" Value="Seçenek" />
+  <Item Name="form.ChoiseName" Value="Seçenek adı" />
+  <Item Name="form.ShowInMainPage" Value="Anasayfada göster" />
+  <Item Name="form.Description" Value="Açıklama" />
+  <Item Name="form.disable" Value="İptal" />
+  <Item Name="form.enable" Value="Yayınla" />
+
+  <Item Name="form.CouponCode" Value="Kupon kodu" />
+  <Item Name="form.EndDate" Value="Bitiş tarihi" />
+  <Item Name="form.IsPercent" Value="Yüzde mi?" />
+  <Item Name="form.Discount" Value="Tutar (%/TL)" />
+  <Item Name="form.MinAmount" Value="Min. Sepet Tutarı (TL)" />
+
+  <Item Name="form.ImagePath" Value="Resim adresi" />
+  <Item Name="form.IsNew" Value="Yeni ürün" />
+  <Item Name="form.Keywords" Value="Anahtar kelimeler" />
+  <Item Name="form.MarketPrice" Value="Piyasa fiyatı" />
+  <Item Name="form.PCode" Value="Ürün kodu" />
+  <Item Name="form.PName" Value="Ürün adı" />
+  <Item Name="form.RootName" Value="Ana kategori" />
+  <Item Name="form.ProductID" Value="Ürün ID" />
+  <Item Name="form.QAConditions" Value="İade / Garanti şartları" />
+  <Item Name="form.ReservedCount" Value="Sepet adeti" />
+  <Item Name="form.ProductCount" Value="Ürün adeti" />
+  <Item Name="form.BuyPrice" Value="Alış fiyatı" />
+  <Item Name="form.SellPrice" Value="Satış fiyatı" />
+  <Item Name="form.SendTypeID" Value="Cihaz Paketleme" />
+  <Item Name="form.SoldCount" Value="Satılan" />
+  <Item Name="form.StockAlarm" Value="Stok alarmı" />
+  <Item Name="form.StockCount" Value="Stok sayısı" />
+  <Item Name="form.NoStock" Value="Stokta Yok" />
+  <Item Name="form.StockNotAvailable" Value="Tükendi" />
+  <Item Name="form.StockAvailable" Value="Satılabilir stok" />
+  <Item Name="form.SubcategoryID" Value="Alt kategori" />
+  <Item Name="form.TaxRate" Value="KDV oranı" />
+  <Item Name="form.CatName" Value="Kategori adı" />
+  <Item Name="form.ParentID" Value="Ana kategori" />
+
+  <Item Name="form.Identity" Value="T.C. Kimlik Numarası / Vergi Numarası" />
+  <Item Name="form.Identity.User" Value="T.C. Kimlik No" />
+  <Item Name="form.Identity.Company" Value="Vergi No" />
+  <Item Name="form.Identity.CompanyName" Value="Şirket Adı" />
+  <Item Name="form.Identity.TaxOffice" Value="Vergi Dairesi" />
+
+  <Item Name="form.cant.update.cargo" Value="Sipariş içindeki tüm ürünler Cepstop'a ulaşmadığı için, ya da sipariş zaten kargolandığı için bu alanı güncelleyemezsiniz." />
+
+  <Item Name="form.user.cargo" Value="Ürününüzü 72 saat içerisinde {0} şubesine, {1} kargo koduyla birlikte teslim etmeniz gerekmektedir." />
+  <Item Name="form.user.kvk" Value="Ürününüzü 72 saat içerisinde KVK {0} şubesine teslim etmeniz gerekmektedir." />
+
+  <Item Name="form.agreement.title.one" Value="Ürün Kodu ve Adı" />
+  <Item Name="form.agreement.title.two" Value="Adet" />
+  <Item Name="form.agreement.title.three" Value="KDV Hariç Birim Fiyat" />
+  <Item Name="form.agreement.title.four" Value="KDV Hariç Birim İndirim" />
+  <Item Name="form.agreement.title.five" Value="KDV Oranı" />
+  <Item Name="form.agreement.title.kvk" Value="Opsiyonel Garanti Süresi (Ay)" />
+  <Item Name="form.agreement.title.kvkprice" Value="Opsiyonel Garanti Ücreti" />
+  <Item Name="form.agreement.title.six" Value="KDV Dahil Toplam Tutar" />
+  <Item Name="form.agreement.title.seven" Value="Genel Toplam" />
+  <Item Name="form.agreement.title.cargo" Value="Kargo" />
+  <Item Name="form.agreement.title.installment" Value="Aylık Tutar (x {0} ay)" />
+
+  <Item Name="form.agreement.value.four" Value="---" />
+  <Item Name="form.agreement.value.five" Value="%18" />
+
+  <Item Name="form.cargo.edit.details" Value="Butona tıklarsanız Yurtiçi Kargo'ya haber verilecektir." />
+  <Item Name="cart.its.your.serial" Value="Kendi ürününüzü satın alamazsınız." />
+  <Item Name="cart.no.such.product" Value="İlgili ürün bulunamadı." />
+  <Item Name="cart.product.inactive" Value="İlgili ürün henüz onaylanmamıştır." />
+  <Item Name="cart.product.inform.stock" Value="Ürün stoğa girince haber verilecektir" />
+  <Item Name="cart.product.variation.violation" Value="Sepete sadece kiralık ya da sadece satılık ürün ekleyebilirsiniz." />
+  <Item Name="cart.product.outofstock" Value="Ürün stokta bulunmamaktadır" />
+  <Item Name="cart.no.such.serial" Value="İlgili ilan bulunamadı." />
+  <Item Name="cart.serial.inactive" Value="İlgili ilan, ilanveren tarafından yayından kaldırılmıştır." />
+  <Item Name="cart.serial.unapproved" Value="İlgili ilan henüz onaylanmamıştır." />
+  <Item Name="cart.serial.sold" Value="İlgili ürün satılmış durumda." />
+  <Item Name="cart.other.users.cart" Value="İlgili ürün, başka bir üyenin sepetindedir." />
+  <Item Name="cart.added" Value="Sepete eklendi." />
+  <Item Name="cart.empty" Value="Sepetinizde ürün bulunmuyor." />
+  <Item Name="cart.expired" Value="Uzun süredir işlem yapmadığınız için sepetiniz boşaltıldı." />
+  <Item Name="cart.removed" Value="Ürün sepetinizden çıkarıldı." />
+  <Item Name="cart.already.added" Value="Ürün zaten sepetinizde." />
+  <Item Name="cart.general.error" Value="Ürün sepetinize eklenirken bir sorun oluştu. Lütfen daha sonra tekrar deneyiniz." />
+  <Item Name="form.serial.picture" Value="Ürün resmi" />
+  <Item Name="err.bank.response" Value="Bankanızdan ödeme onayı alınamadı. Lütfen girdiğiniz bilgileri ve limitinizi kontrol ederek tekrar deneyiniz." />
+
+  <Item Name="form.ModelProperties" Value="Model özellikleri" />
+  <Item Name="form.SendMail" Value="Ayrıca mail ve uyarı gönder" />
+  <Item Name="form.OrderID" Value="Sipariş no" />
+  <Item Name="form.PropertyDesc" Value="Özellik adı" />
+  <Item Name="form.OrderStatusID" Value="Sipariş durumu" />
+  <Item Name="form.PaymentTypeID" Value="Ödeme yöntemi" />
+  <Item Name="form.CargoDate" Value="Kargo tarihi" />
+  <Item Name="err.cc.number" Value="Kart numaranızı giriniz" />
+  <Item Name="err.cc.invalid.for.installment" Value="Bu kredi kartı için taksit yapılamıyor." />
+  <Item Name="err.cc.invalid.for.installment.retry" Value="Sadece ING Bank ve Garanti Bankası'na ait kredi kartlarına taksit yapılabilmektedir." />
+  <Item Name="err.cc.invalid.number" Value="Geçersiz kredi kartı numarası" />
+  <Item Name="err.cc.invalid.format" Value="Geçersiz kredi kartı formatı" />
+  <Item Name="err.cart.manipulation" Value="Sepet fiyatınız, sayfayı yüklediğinizden bu yana değişmiş. Lütfen işleminize Sepetim sayfasından tekrar başlayınız." />
+
+  <Item Name="form.TotalPrice" Value="Ara toplam" />
+  <Item Name="form.DiscountAmount" Value="İndirim" />
+  <Item Name="form.TaxAmount" Value="Vergi" />
+  <Item Name="form.CargoPrice" Value="Kargo ücreti" />
+  <Item Name="form.Commission" Value="Komisyon" />
+  <Item Name="form.BillAddressID" Value="Fatura adresi" />
+  <Item Name="form.DeliveryAddressID" Value="Teslimat adresi" />
+
+
+  <Item Name="pick.year" Value="Yıl" />
+  <Item Name="form.Quantity" Value="Adet" />
+  <Item Name="form.cart.UnitPrice" Value="Birim fiyat" />
+  <Item Name="form.cart.certificate" Value="Sertifika" />
+  <Item Name="form.cart.FinalPrice" Value="Tutar" />
+  <Item Name="form.serial.name" Value="Ürün adı" />
+  <Item Name="form.model.name" Value="Model" />
+  <Item Name="form.optional.guarantee" Value="Opsiyonel Garanti" />
+  <Item Name="form.optional.guarantee.duration" Value="Garanti Ücreti" />
+  <Item Name="form.initial.price" Value="Peşinat" />
+  <!--<Item Name="form.initial.price" Value="Yıllık Kiralama" />-->
+  <Item Name="form.monthly.price" Value="Aylık Kiralama Bedeli" />
+  <Item Name="form.monthly.price.total" Value="Senet Tutarı" />
+
+  <Item Name="form.AddressID" Value="Adres no" />
+  <Item Name="form.AdminID" Value="Yönetici no" />
+  <Item Name="form.Amount" Value="Tutar" />
+  <Item Name="form.BankAccountID" Value="Banka hesap no" />
+  <Item Name="form.BankAccountName" Value="Hesap adı" />
+  <Item Name="form.BankAccountNo" Value="Hesap numarası" />
+  <Item Name="form.BankID" Value="Banka no" />
+  <Item Name="form.BgImage" Value="Css" />
+  <Item Name="form.BirthDate" Value="Doğum tarihi" />
+  <Item Name="form.BLogo" Value="Büyük logo" />
+  <Item Name="form.BName" Value="Marka adı" />
+  <Item Name="form.Body" Value="İçerik" />
+  <Item Name="form.BulletinOK" Value="Bülten istiyor" />
+  <Item Name="form.CharityID" Value="Kurum no" />
+  <Item Name="form.CompanyBankID" Value="Banka" />
+  <Item Name="form.ContactLogID" Value="Mesaj no" />
+  <Item Name="form.ContentID" Value="İçerik no" />
+  <Item Name="form.CustomerBankID" Value="Müşteri bankası" />
+  <Item Name="form.Date" Value="Tarih" />
+  <Item Name="form.DefaultPrice" Value="Önerilen fiyat" />
+  <Item Name="form.DefImageID" Value="Varsayılan resim" />
+  <Item Name="form.Deleted" Value="Silindi" />
+  <Item Name="form.Description" Value="Açıklama" />
+  <Item Name="form.DistrictID" Value="Semt no" />
+  <Item Name="form.DueCount" Value="Taksit" />
+  <Item Name="form.Email" Value="E-posta" />
+  <Item Name="form.EmailOK" Value="Email onaylandı" />
+  <Item Name="form.FacebookID" Value="Facebook IDsi" />
+  <Item Name="form.GatewayBankID" Value="Tahsilat bankası" />
+  <Item Name="form.GuaranteeMonths" Value="Garanti süresi" />
+  <Item Name="form.HPassword" Value="Şifre" />
+  <Item Name="form.ImageURL" Value="Resim adresi" />
+  <Item Name="form.Installment" Value="Taksit" />
+  <Item Name="form.InstallmentEnabled" Value="Taksit yapabilir" />
+  <Item Name="form.IsDefault" Value="Varsayılan" />
+  <Item Name="form.IsOther" Value="Diğer" />
+  <Item Name="form.IsRegistered" Value="Kayıtlı" />
+  <Item Name="form.IsRepaired" Value="Tamir gördü" />
+  <Item Name="form.IsSellerPaid" Value="Ödeme yapıldı" />
+  <Item Name="form.IsUsed" Value="Kullanıldı" />
+  <Item Name="form.Keywords" Value="Anahtar kelimeler" />
+  <Item Name="form.Lang" Value="Dil" />
+  <Item Name="form.LastIP" Value="Son IP" />
+  <Item Name="form.LastLogin" Value="Son giriş" />
+  <Item Name="form.LevelID" Value="Seviye" />
+  <Item Name="form.MaxPrice" Value="Max Fiyat" />
+  <Item Name="form.MemberID" Value="Üye no" />
+  <Item Name="form.MinPrice" Value="Min Fiyat" />
+  <Item Name="form.MName" Value="Model adı" />
+  <Item Name="form.ObjectID" Value="Sipariş no" />
+  <Item Name="form.OptionID" Value="Seçenek no" />
+  <Item Name="form.Options" Value="Seçenekler" />
+  <Item Name="form.OrderID" Value="Sipariş no" />
+  <Item Name="form.PageKey" Value="Kısa isim" />
+  <Item Name="form.PageletID" Value="İçerik no" />
+  <Item Name="form.PayDate" Value="Ödeme tarihi" />
+  <Item Name="form.PaymentDate" Value="Ödeme tarihi" />
+  <Item Name="form.PaymentID" Value="Ödeme no" />
+  <Item Name="form.PaymentSource" Value="Ödeme türü" />
+  <Item Name="form.PaymentType" Value="Ödeme tipi" />
+  <Item Name="form.PersonInCharge" Value="Sorumlu yönetici" />
+  <Item Name="form.Phone" Value="Telefon" />
+  <Item Name="form.Price" Value="Fiyat" />
+  <Item Name="form.PriceID" Value="Fiyat no" />
+  <Item Name="form.PropertyID" Value="Özellik no" />
+  <Item Name="form.ProvisionCode" Value="Provizyon kodu" />
+  <Item Name="form.QuestionID" Value="Soru no" />
+  <Item Name="form.Question" Value="Soru" />
+  <Item Name="form.QuestionAnswer" Value="Cevap" />
+  <Item Name="form.QuestionDate" Value="Soru tarihi" />
+  <Item Name="form.Rate" Value="Oran" />
+  <Item Name="form.RateID" Value="Taksit no" />
+  <Item Name="form.RefMemberID" Value="Referans üye no" />
+  <Item Name="form.RefNo" Value="Referans numarası" />
+  <Item Name="form.Reputation" Value="Reputasyon" />
+  <Item Name="form.ResDescription" Value="Tanım key" />
+  <Item Name="form.ResHelp" Value="Yardım key" />
+  <Item Name="form.ResText1" Value="Metin 1" />
+  <Item Name="form.ResText2" Value="Metin 2" />
+  <Item Name="form.RightContent" Value="Sağ içerik" />
+  <Item Name="form.SellDate" Value="Satış tarihi" />
+  <Item Name="form.SerialID" Value="İlan no" />
+  <Item Name="form.SerialTitle" Value="İlan başlığı" />
+  <Item Name="form.ShopName" Value="Şube adı" />
+  <Item Name="form.SLogo" Value="Küçük logo" />
+  <Item Name="form.SortOrder" Value="Sıralama" />
+  <Item Name="form.SourceID" Value="Kaynak" />
+  <Item Name="form.Title" Value="Başlık" />
+  <Item Name="form.TotalPrice" Value="Fiyat" />
+  <Item Name="form.URL" Value="Adres" />
+  <Item Name="form.Username" Value="Kullanıcı adı" />
+  <Item Name="form.VariantID" Value="Varyant" />
+  <Item Name="form.Verified" Value="Onaylandı" />
+  <Item Name="form.Is.Banned" Value="Ban" />
+
+  <Item Name="hlp_color" Value="Renk" />
+  <Item Name="hlp_capacity" Value="Hafıza boyutu" />
+  <Item Name="pro-color" Value="Telefonunuzun rengi?" />
+  <Item Name="pro-capacity" Value="Telefonunuzun hafıza kapasitesi?" />
+  <Item Name="pro-renk-siyah-beyaz" Value="Telefonunuzun rengi?" />
+  <Item Name="pro-renk-yesil-beyaz-sari-mavi-pembe" Value="Telefonunuzun rengi?" />
+  <Item Name="pro-renk-gumus-gri-altin" Value="Telefonunuzun rengi?" />
+  <Item Name="pro-renk-siyah-beyaz-mavi" Value="Telefonunuzun rengi?" />
+  <Item Name="pro-renk-siyah-beyaz-pembe" Value="Telefonunuzun rengi?" />
+  <Item Name="pro-renk-siyah-beyaz-sari" Value="Telefonunuzun rengi?" />
+  <Item Name="pro-renk-siyah-kirmizi" Value="Telefonunuzun rengi?" />
+
+  <Item Name="pro-kapasite-8-16" Value="Telefonunuzun hafıza kapasitesi?" />
+  <Item Name="pro-kapasite-8-16-32" Value="Telefonunuzun hafıza kapasitesi?" />
+  <Item Name="pro-kapasite-16-32-64" Value="Telefonunuzun hafıza kapasitesi?" />
+  <Item Name="pro-kapasite-8-16-32-64" Value="Telefonunuzun hafıza kapasitesi?" />
+  <Item Name="pro-kapasite-16-32" Value="Telefonunuzun hafıza kapasitesi?" />
+
+  <Item Name="pager.prev" Value="←" />
+  <Item Name="pager.next" Value="→" />
+  <Item Name="search.results" Value="{0} ilan bulundu, {1}. sayfa gösteriliyor" />
+  <Item Name="success.saving.serial" Value="İlanınız başarıyla kaydedildi. Onaylandıktan sonra yayına çıkacaktır." />
+  <Item Name="success.updating.serial" Value="İlanınız güncellendi." />
+  <Item Name="success.cargo.status" Value="İlan durumunuz kaydedildi. Kargo kodunuzla ilgili açıklamalar e-posta olarak size gönderilecektir." />
+  <Item Name="error.cargo.status" Value="İlanınız yayından kaldırılmıştır." />
+  <Item Name="err.serial.uneditable" Value="Bu ilan üzerinde güncelleme yapamazsınız." />
+  <Item Name="tooltip.guarantee.months" Value="Telefonunuzun garanti süresini ay olarak giriniz." />
+  <!--<Item Name="tooltip.seller.note" Value="Telefonunuz çalışıyor mu? Su hasarı yaşadı mı? Listede olmayan ekstra bir aksesuarı var mı?" />-->
+  <Item Name="tooltip.seller.note" Value="Cep telefonunuz tamir gördü mü? Sıvı teması yaşandı mı? Listedekiler dışında bir aksesuarı var mı?" />
+  <Item Name="title.login" Value="Giriş" />
+  <Item Name="title.search.results" Value="Arama sonuçları" />
+  <Item Name="title.register" Value="Üye ol" />
+  <Item Name="title.wellcome" Value="Hoşgeldiniz" />
+  <Item Name="title.add.address" Value="Adres ekle" />
+  <Item Name="title.address.detail" Value="Adres detay" />
+  <Item Name="title.edit.address" Value="Adres düzenle" />
+  <Item Name="starting.from" Value="{0} TL'den&lt;br /&gt;itibaren" />
+  <Item Name="title.featured.products" Value="Öne Çıkanlar" />
+  <Item Name="title.related.products" Value="Bu Cihaza Uygun Aksesuarlar" />
+  <Item Name="title.search.phone" Value="Telefon ara" />
+  <Item Name="title.buy.now" Value="Şimdi Al" />
+  <Item Name="title.rent.now" Value="Kirala" />
+  <Item Name="title.inform" Value="Haber Ver" />
+  <Item Name="title.inform.rent" Value="Haber Ver (Kiralık)" />
+  <Item Name="title.Message" Value="Mesaj" />
+  <Item Name="title.serial.detail" Value="İlan Detay" />
+  <Item Name="title.BankAccount" Value="Banka hesabı" />
+  <Item Name="form.MessageContent" Value="Mesaj" />
+  <Item Name="Other" Value="Diğer" />
+  <Item Name="add.new.address" Value="-- ADRES EKLE --" />
+  <Item Name="add.new.charity" Value="-- LİSTEDE OLMAYAN KURUM EKLE -- " />
+  <Item Name="add.new.bankaccount" Value="-- BANKA HESABI EKLE --" />
+  <Item Name="pick.address" Value="Adres seçiniz" />
+  <Item Name="pick.delivery.address" Value="Teslimat adresi seçiniz" />
+  <Item Name="pick.bill.address" Value="Fatura adresi seçiniz" />rev.
+  <Item Name="pick.bank" Value="Bankanızı seçiniz" />
+  <Item Name="pick.city" Value="İl seçiniz" />
+  <Item Name="pick.county" Value="İlçe seçiniz" />
+  <Item Name="pick.bankaccount" Value="Banka hesabı seçiniz" />
+  <Item Name="req.BankAccount" Value="Banka hesabı seçiniz" />
+  <Item Name="req.CouponCode" Value="Kupon kodunuzu giriniz" />
+  <Item Name="req.SellerPayment" Value="Ödeme türünüzü seçiniz" />
+  <Item Name="req.SellerCargo" Value="Cihaz paketleme türünü seçiniz" />
+  <Item Name="req.CargoStat" Value="Lütfen telefonun uygunluk durumunu seçiniz" />
+  <Item Name="form.serial.sold" Value="Tebrikler, telefonunuz satıldı!&lt;br&gt;Lütfen aşağıdan telefonunuza uyan seçeneği işaretleyin." />
+  <Item Name="serial.sold.agreement.title" Value="Lütfen aşağıdaki metnin çıktısını alıp imzalayarak ürününüzle birlikte kargoya veriniz." />
+  <Item Name="req.Message" Value="Lütfen mesaj giriniz" />
+  <Item Name="req.LogTypeID" Value="Lütfen iletişim nedeni seçiniz." />
+  <Item Name="req.Address" Value="Adres seçiniz" />
+  <Item Name="req.CityID" Value="Şehir seçiniz" />
+  <Item Name="req.IBAN" Value="IBAN numaranızı giriniz" />
+  <Item Name="ph.IBAN" Value="TRXX XXXX XXXX XXXX XXXX XXXX XX" />
+  <Item Name="form.BankAccountType" Value="Hesap türü" />
+  <Item Name="err.iban.invalid.chars" Value="IBAN alanına geçersiz karakter girdiniz." />
+  <Item Name="err.iban.invalid.length" Value="IBAN uzunluğu geçersiz." />
+  <Item Name="err.iban.invalid" Value="Geçersiz bir IBAN numarası girdiniz. Lütfen kontrol ediniz." />
+
+
+
+  <Item Name="order.agreement" Value="“Ön Bilgi Formu” ve “Mesafeli Satış Sözleşmesi”ni okudum, onaylıyorum." />
+
+  <Item Name="form.CharityName" Value="Kurum adı" />
+  <Item Name="req.CharityName" Value="Bağış yapılacak kurum adını giriniz" />
+  <Item Name="form.CharityURL" Value="Kurum internet adresi" />
+  <Item Name="form.CharityDonator" Value="Bağış yapan kişi" />
+  <Item Name="form.CharityEmail" Value="E-posta adresiniz" />
+  <Item Name="form.CharityPhone" Value="Telefon numaranız" />
+  <Item Name="new.serial.subject" Value="{0} nolu ilanınız kaydedildi" />
+  <Item Name="new.buy.completed" Value="Ürün alındı bilgisi" />
+  <Item Name="seller.item.availibility.subject" Value="{0} nolu ilanınız satıldı" />
+  <Item Name="seller.cargo.key.subject" Value="{0} nolu ilanınıza ait kargo bilgileri" />
+  <Item Name="member.activation.subject" Value="Cepstop aktivasyon kodunuz" />
+  <Item Name="member.welcome" Value="Cepstop'a Hoşgeldiniz!" />
+  <Item Name="question.subject" Value="Cepstop Bilgilendirme" />
+
+  <Item Name="question.inserted" Value="Soru Kaydı" />
+  <Item Name="question.answer.received" Value="Cevap" />
+  <Item Name="stock.info.subject" Value="Stok Bilgilendirme" />
+
+  <Item Name="request.cargo.info" Value="Cepstop teslimat bilgileri" />
+  <Item Name="order.cargo.delivered" Value="Siparişinizin sertifikalandırılıp kargo firmasına teslim edilmiştir." />
+  <Item Name="serial.cargo.ok.formatter" Value="ilanınızın yeni kargo durumu {0} olarak güncellenmiştir." />
+  <Item Name="serial.approval.not.ok" Value="ilanınız onaylanmadı." />
+  <Item Name="serial.approval.ok" Value="ilanınız onaylanmıştır." />
+  <Item Name="serial.cancelled" Value="İlanınız iptal edilmiştir" />
+  <Item Name="serial.price.updated" Value="İlanınız için fiyat revize edilmiştir" />
+  <Item Name="serial.received.not.ok" Value="Ürününüz Cepstop merkezine ulaşmamıştır." />
+  <Item Name="serial.received.ok.formatter" Value="Ürününüz {0} tarihinde Cepstop merkezine ulaşmıştır." />
+  <Item Name="serial.payment.ok.formatter" Value="İlana ait ödemeniz {0} tarihinde gerçekleştirilmiştir." />
+  <Item Name="serial.payment.not.ok" Value="İlan ödemeniz yapılmamıştır." />
+  <Item Name="serial.status.change.payment" Value="İlan Ödeme Durumu" />
+  <Item Name="serial.status.change.approval" Value="İlan Onay Durumu" />
+  <Item Name="serial.status.change.received" Value="İlan Ulaştırma Durumu" />
+  <Item Name="serial.status.change.cargostatuschange" Value="Kargo Durumu Değişikliği" />
+
+  <Item Name="form.sell.your.phone" Value="Telefonunu sat" />
+  <Item Name="form.pick.brand" Value="Marka seçin" />
+  <Item Name="form.pick.model" Value="Model seçin" />
+  <Item Name="form.enter.phone.details" Value="Telefon özelliklerini girin" />
+  <Item Name="form.enter.phone.price" Value="Fiyat ve çizikleri belirleyin" />
+
+  <Item Name="form.phone.status" Value="Kullanım durumu" />
+  <Item Name="form.repair.status" Value="Tamir durumu" />
+  <Item Name="form.guarantee.status" Value="Garanti durumu" />
+  <Item Name="form.IMEI.status" Value="IMEI kaydı" />
+  <Item Name="form.IMEI.local" Value="Yurtiçi" />
+  <Item Name="form.IMEI.overseas" Value="Pasaport kayıtlı" />
+  <Item Name="form.share.format" Value="{0} görüntülenme, {1} favori" />
+  <Item Name="form.is.phone.new" Value="Yeni mi?" />
+  <Item Name="form.is.phone.repaired" Value="Tamir gördü mü?" />
+  <Item Name="form.is.phone.guaranteed" Value="Garanti" />
+  <Item Name="form.is.phone.registered" Value="IMEI Kaydı" />
+  <Item Name="form.phone.accessories" Value="Aksesuarlar" />
+  <Item Name="form.phone.note.title" Value="Alıcının bilmesi gereken durumlar:" />
+  <Item Name="form.phone.cs" Value="Cepstop'un bilmesi gereken durumlar:" />
+  <Item Name="form.phone.cs.sell" Value="Satıcının bilmesi gereken durumlar:" />
+  <Item Name="form.offer.price" Value="Teklif:"/>
+
+  <Item Name="form.PersonName" Value="Kişi adı" />
+  <Item Name="form.Address" Value="Adres"/>
+  <Item Name="form.Address1" Value="Adres satırı 1" />
+  <Item Name="form.Address2" Value="Adres satırı 2" />
+  <Item Name="form.District" Value="Semt / İlçe" />
+  <Item Name="form.ZipCode" Value="Posta kodu" />
+  <Item Name="req.PersonName" Value="Kişi adı giriniz" />
+  <Item Name="req.Address1" Value="Adres giriniz" />
+  <Item Name="req.ZipCode" Value="Posta kodu giriniz" />
+  <Item Name="req.District" Value="Semt / İlçe giriniz" />
+
+  <Item Name="req.paytrust.name" Value="Adınızı giriniz" />
+  <Item Name="req.paytrust.surname" Value="Soyadınızı giriniz" />
+  <Item Name="req.City" Value="İl giriniz" />
+  <Item Name="req.County" Value="İlçe giriniz" />
+
+  <Item Name="footer.about.us" Value="Hakkımızda" />
+  <Item Name="footer.how" Value="Nasıl çalışır?" />
+  <Item Name="footer.career" Value="Kariyer olanakları" />
+  <Item Name="footer.brands" Value="Markalar" />
+  <Item Name="footer.account" Value="Hesabım" />
+  <Item Name="footer.order.history" Value="İşlemlerim" />
+  <Item Name="footer.newsletter" Value="Bülten" />
+  <Item Name="footer.contact" Value="İletişim" />
+  <Item Name="footer.sitemap" Value="Site haritası" />
+  <Item Name="footer.membership" Value="Üyelik Sözleşmesi" />
+  <Item Name="footer.legal" Value="Satış Sözleşmesi ve İade Koşulları" />
+  <Item Name="footer.privacy" Value="Gizlilik" />
+  <Item Name="title.account" Value="Hesabım" />
+  <Item Name="title.orders" Value="Siparişlerim" />
+  <Item Name="title.serials" Value="Satışlarım" />
+  <Item Name="title.transactions" Value="İşlemlerim" />
+  <Item Name="title.Address" Value="Adres" />
+  <Item Name="title.address" Value="Adreslerim" />
+  <Item Name="title.cart" Value="Sepetim" />
+  <Item Name="title.question" Value ="Soru sor" />
+  <Item Name="form.question" Value ="Sorunuz" />
+
+  <Item Name="title.checkout" Value="Adres seçimi" />
+  <Item Name="title.order.complete" Value="Alışveriş tamamlandı" />
+  <Item Name="title.payment" Value="Ödeme" />
+  <Item Name="title.bankaccounts" Value="Banka hesaplarım" />
+  <Item Name="title.new.bankaccount" Value="Hesap ekle" />
+  <Item Name="title.edit.bankaccount" Value="Hesap güncelle" />
+  <Item Name="title.inbox" Value="Mesajlarım" />
+  <Item Name="title.cargostuff" Value="Kargo ve Ödeme Bilgileri" />
+  <Item Name="title.order.detail" Value="Sipariş detay" />
+
+  <Item Name="title.how.much" Value="Telefonunuza ne kadar istiyorsunuz?" />
+  <Item Name="title.min.price" Value="Hızlı satılır" />
+  <Item Name="title.market.price" Value="Piyasa fiyatı" />
+  <Item Name="title.max.price" Value="Yavaş satılır" />
+  <Item Name="title.price.footer" Value="Hızlı satış için, piyasa fiyatını seçmeniz önerilir." />
+  <Item Name="title.your.gain" Value="Kazancınız:" />
+
+  <Item Name="form.close" Value="Kapat" />
+  <Item Name="form.change.model" Value="Başka model seç" />
+  <Item Name="form.Bulletin" Value="İletişim" />
+  <Item Name="form.bulletin" Value="E-posta almak istiyorum" />
+  <Item Name="form.Agreement" Value="Üyelik sözleşmesi" />
+  <Item Name="form.agreement" Value="&lt;a target='_blank' href='/agreement' class='agreement'&gt;Sözleşmeyi&lt;/a&gt; okudum, kabul ediyorum." />
+
+  <Item Name="form.Email" Value="E-posta" />
+  <Item Name="form.Password" Value="Şifre" />
+  <Item Name="form.Password2" Value="Şifre (tekrar)" />
+  <Item Name="form.Name" Value="Ad" />
+  <Item Name="form.Surname" Value="Soyad" />
+  <Item Name="form.GSM" Value="Cep numaranız" />
+
+  <Item Name="form.BankID" Value="Bankanız" />
+  <Item Name="form.BankName" Value="Banka" />
+  <Item Name="form.DepartmentCode" Value="Şube kodu" />
+  <Item Name="form.AccountCode" Value="Hesap numarası" />
+  <Item Name="form.AccountOwner" Value="Hesap sahibi" />
+  <Item Name="form.IBAN" Value="IBAN Numarası" />
+  <Item Name="req.DepartmentCode" Value="Şube kodu giriniz" />
+  <Item Name="req.AccountCode" Value="Hesap numarası giriniz" />
+  <Item Name="req.BankID" Value="Bankanızı seçiniz" />
+  <Item Name="req.AccountOwner" Value="Hesap sahibini giriniz" />
+
+  <Item Name="req.OldPassword" Value="Şimdiki şifrenizi giriniz" />
+  <Item Name="form.OldPassword" Value="Şimdiki şifreniz" />
+  <Item Name="form.NewPassword" Value="Yeni şifre giriniz" />
+
+  <Item Name="req.Email" Value="E-posta giriniz" />
+  <Item Name="req.Email.Format" Value="Hatalı e-posta formatı" />
+  <Item Name="req.Password" Value="Şifrenizi giriniz" />
+  <Item Name="req.Password2" Value="Şifrenizi tekrar giriniz" />
+  <Item Name="req.same.password" Value="Aynı şifreyi giriniz" />
+  <Item Name="req.Name" Value="Adınızı giriniz" />
+  <Item Name="req.Name.FormatName" Value="Sayısal değer veya sembol kullanmayın" />
+  <Item Name="req.Name.Format" Value="Türkçe karakter veya sembol kullanmayın" />
+  <Item Name="req.Surname" Value="Soyadınızı giriniz" />
+  <Item Name="req.GSM" Value="Cep telefonunuzu giriniz" />
+  <Item Name="req.PName" Value="Ürün adı giriniz" />
+  <Item Name="req.BrandID" Value="Marka seçiniz" />
+  <Item Name="req.CategoryID" Value="Ana kategori seçiniz" />
+  <Item Name="req.SubcategoryID" Value="Alt kategori seçiniz" />
+  <Item Name="req.BuyPrice" Value="Alış fiyatı giriniz" />
+  <Item Name="req.SellPrice" Value="Satış fiyatı giriniz" />
+  <Item Name="req.MarketPrice" Value="Piyasa fiyatı giriniz" />
+  <Item Name="req.CargoPrice" Value="Kargo fiyatı giriniz" />
+  <Item Name="req.TaxRate" Value="Vergi oranı giriniz" />
+  <Item Name="req.Description" Value="Açıklama giriniz" />
+  <Item Name="req.StockCount" Value="Stok giriniz" />
+  <Item Name="req.GuaranteeMonths" Value="Garanti süresi giriniz (ay)" />
+  <Item Name="req.Question" Value="Sorunuzu giriniz" />
+
+  <Item Name="rev.GSM" Value="Numaranızı 10 basamaklı giriniz" />
+  <Item Name="req.Identity" Value="Lütfen kimlik numaranızı giriniz" />
+  <Item Name="req.tax.Identity" Value="Lütfen vergi numaranızı giriniz" />
+  <Item Name="rev.Identity" Value="Kimlik numarası, 11 haneli olmak zorundadır" />
+  <Item Name="rev.Identity.Tax" Value="Vergi numarası, 10 haneli olmak zorundadır" />
+  <Item Name="req.CompanyName" Value="Şirket adı giriniz" />
+  <Item Name="req.TaxOffice" Value="Vergi dairesi giriniz" />
+
+  <Item Name="tooltip.Identity" Value="T.C. Kimlik No" />
+  <Item Name="tooltip.Identity.Tax" Value="Vergi No" />
+  <Item Name="tooltip.CompanyName" Value="Şirket Adı" />
+  <Item Name="tooltip.TaxOffice" Value="Vegi Dairesi" />
+
+
+  <Item Name="form.cart" Value="Sepetim" />
+  <Item Name="footer.info" Value="BİLGİ" />
+  <Item Name="form.extras" Value="GÖZAT" />
+  <Item Name="form.my.account" Value="HESABIM" />
+  <Item Name="form.support" Value="DESTEK" />
+  <Item Name="form.payment.options" Value="ÖDEME SEÇENEKLERİ" />
+  <Item Name="form.delivery.options" Value="KARGO SEÇENEKLERİ" />
+  <Item Name="form.social" Value="BAĞLANTIDA KALIN" />
+  <Item Name="form.contact.us" Value="İLETİŞİM" />
+  <Item Name="form.copyright" Value="Cepstop 2014. Tüm hakları saklıdır ©" />
+
+  <Item Name="err.add.this.first" Value="İşleminize devam etmek için, önce bu sayfayı kullanarak bir kayıt oluşturmanız gerekiyor." />
+  <Item Name="err.Scratch" Value="Kullanım durumu seçiniz" />
+  <Item Name="err.already.added" Value="Bu kayıt zaten eklenmiş" />
+  <Item Name="err.agreement" Value="Lütfen sözleşmeyi okuyup onayladığınızı belirten seçeneği tıklayın." />
+  <Item Name="err.bad.login" Value="Geçersiz e-posta ya da şifre girdiniz. Lütfen tekrar deneyin." />
+  <Item Name="err.cart.item.count" Value="Tek seferde en fazla 5 ürün satın alabilirsiniz" />
+  <Item Name="err.order.item.count" Value="Bir hafta içerisinde en fazla 10 ürün satın alabilirsiniz" />
+  <Item Name="err.rent.item.count" Value="En fazla bir ürün kiralayabilirsiniz" />
+  <Item Name="err.email" Value="Lütfen geçerli bir e-posta girin." />
+  <Item Name="err.email.exists" Value="Sistemde bu e-posta adresiyle kayıtlı bir üyelik var. Lütfen giriş yapmayı deneyin, ya da Şifremi Unuttum bağlantısına tıklayın." />
+  <Item Name="err.email.repeat" Value="Lütfen aynı şifreyi girin." />
+  <Item Name="err.general" Value="Sistemde bir hata oluştu.&lt;br&gt;Lütfen daha sonra tekrar deneyiniz." />
+  <Item Name="err.invalid" Value="Lütfen girdiğiniz değeri kontrol ediniz." />
+  <Item Name="err.login.first" Value="İşleminize devam etmek için, giriş yapmanız gerekiyor." />
+  <Item Name="err.max.choice" Value="Bu alanda seçebileceğiniz kayıt sayısı sınırlandırılmıştır" />
+  <Item Name="err.member.disabled" Value="Giriş yetkiniz yok. Lütfen iletişime geçiniz." />
+  <Item Name="user.banned" Value="Kullanıcı hesabınız dondurulmuştur. Lütfen iletişime geçiniz." />
+  <Item Name="err.member.not.verified" Value="Lütfen hesabınızı aktif hale getirin." />
+  <Item Name="err.no.data" Value="Kayıt bulunamadı." />
+  <Item Name="err.no.search.results" Value="Kriterlerinize uygun sonuç bulunamadı. Arama seçeneklerinizi genişletip tekrar deneyebilirsiniz." />
+  <Item Name="err.no.selection" Value="Hiç kayıt seçmemişsiniz." />
+  <Item Name="err.no.such.user" Value="Bu e-posta adresiyle kayıtlı bir kullanıcı bulunamadı." />
+  <Item Name="err.number" Value="Lütfen sadece sayı girin." />
+  <Item Name="err.old.password" Value="Şimdiki şifrenizi yanlış girdiniz." />
+  <Item Name="err.save" Value="Değişiklikler kaydedilirken hata oluştu." />
+  <Item Name="err.delete" Value="Kayıt silinemedi. Zaten silinmiş, silmeye yetkiniz yok, ya da bu kayıtla ilişkili alt kayıtlar bulunuyor olabilir." />
+  <Item Name="err.send.email" Value="Email gönderilemedi" />
+  <Item Name="err.turkish" Value="Lütfen sadece küçük harf, sayı ve _ karakteri kullanınız." />
+  <Item Name="err.URL" Value="Geçersiz internet adresi" />
+  <Item Name="error.404" Value="404: Aradığınız sayfa bulunamadı.&lt;br /&gt;Lütfen adresin doğru olduğundan emin olun.&lt;br /&gt;Anasayfa için &lt;a href=&quot;/dashboard&quot;&gt;tıklayın&lt;/a&gt;." />
+  <Item Name="error.auth-id" Value="Bu sayfayı görmeye yetkiniz yok." />
+  <Item Name="error.general" Value="Bu sayfayı görmeye yetkiniz yok, ya da bir hata oluştu. Lütfen daha sonra tekrar deneyin." />
+  <Item Name="error.page.title" Value="Bir hata oluştu" />
+  <Item Name="filter" Value="+ Filtrele" />
+  <Item Name="filter.columns" Value="Sütunları seç" />
+  <Item Name="filter.no.data" Value="Bulunamadı:" />
+  <Item Name="form.delete" Value="Sil" />
+  <Item Name="form.detail" Value="Detay" />
+  <Item Name="form.edit" Value="Güncelle" />
+  <Item Name="form.operations" Value="İşlem" />
+  <Item Name="form.preview" Value="Önizleme" />
+  <Item Name="form.remember.me" Value="Beni hatırla" />
+  <Item Name="form.report" Value="Raporla" />
+  <Item Name="format.inbox.header" Value="{0} okunmamış mesaj" />
+
+  <Item Name="format.List" Value="{0} Listesi" />
+  <Item Name="format.Edit" Value="{0} Güncelle" />
+  <Item Name="format.Add" Value="Yeni {0}" />
+  <Item Name="format.New" Value="Yeni {0}" />
+  <Item Name="format.Detail" Value="{0} Detay" />
+  <Item Name="format.search.title" Value="ikinci el ve sıfır {0} cep telefonları Cepstop.com'da" />
+  <Item Name="format.search.results.title" Value="Sertifikalı {0} Telefonlar | Garantili {0} Telefon Fiyatları | İndirimli {0}" />
+  <Item Name="format.serial.title" Value="Cepstop.com'da Satılık {0}" />
+  <Item Name="format.product.title" Value="Garantili {0}" />
+  <Item Name="format.search.description" Value="{0} marka cep telefonlarını ikinci el veya sıfır KVK güvencesiyle CepStop.com'da hem alabilir hem de satabilirsiniz." />
+  <Item Name="format.search.keywords" Value="{0} cep telefonu, {0} cep telefonları, {0} ikinci el telefon, {0} akıllı telefon, {0} garantili cep telefonu, {0} KVK indirim, {0} KVK garantili, {0} telefon indirim" />
+
+  <Item Name="help" Value="Yardım" />
+  <Item Name="home" Value="Anasayfa" />
+  <Item Name="info.active" Value="Hesabınız aktif hale getirilmiştir" />
+  <Item Name="info.active.tel" Value="Siparişinizin adresinize teslim edilebilmesi için cep telefonunuzu {0} menüsünden aktif hale getirmeniz gerekmektedir. " />
+  <Item Name="kapat" Value="Kapat" />
+  <Item Name="max.choose.items" Value="En fazla {0} kayıt seçebilirsiniz." />
+
+  <Item Name="month1" Value="Ocak" />
+  <Item Name="month10" Value="Ekim" />
+  <Item Name="month11" Value="Kasım" />
+  <Item Name="month12" Value="Aralık" />
+  <Item Name="month2" Value="Şubat" />
+  <Item Name="month3" Value="Mart" />
+  <Item Name="month4" Value="Nisan" />
+  <Item Name="month5" Value="Mayıs" />
+  <Item Name="month6" Value="Haziran" />
+  <Item Name="month7" Value="Temmuz" />
+  <Item Name="month8" Value="Ağustos" />
+  <Item Name="month9" Value="Eylül" />
+
+
+  <Item Name="form.subtotal" Value="Ara toplam" />
+  <Item Name="form.certificate" Value="Sertifika bedeli" />
+  <Item Name="form.tax.price" Value="KDV" />
+  <Item Name="form.discount" Value="İndirim" />
+  <Item Name="form.cargoprice" Value="Kargo ücreti" />
+  <Item Name="form.finalprice" Value="Toplam" />
+  <Item Name="nav.continue.shopping" Value="Alışverişe Devam" />
+  <Item Name="nav.reactivate" Value="Tekrar gönder" />
+  <Item Name="nav.activate" Value="Aktive et" />
+  <Item Name="nav.activated" Value="Aktive edilmiştir" />
+  <Item Name="nav.send.sms" Value="Telefonuma gönder" />
+  <Item Name="nav.choose.address" Value="Devam" />
+  <Item Name="nav.checkout" Value="Siparişi Tamamla" />
+  <Item Name="nav.add.basket" Value="Sepete ekle" />
+  <Item Name="nav.buy.now" Value="Şimdi al" />
+  <Item Name="nav.ask.now" Value="Soru Sor" />
+  <Item Name="nav.apply.code" Value="Kodu uygula" />
+
+  <Item Name="nav.add" Value="Ekle" />
+  <Item Name="nav.serial" Value="ilan" />
+  <Item Name="nav.serial.capital" Value="İlan" />
+  <Item Name="nav.payment.type" Value="Ödeme yöntemini seç" />
+  <Item Name="nav.connect" Value="Bağlan" />
+  <Item Name="nav.add.all" Value="Tümünü ekle »" />
+  <Item Name="nav.add.selected" Value="Seçilenleri ekle »" />
+  <Item Name="nav.add.continue" Value="Ekle ve devam et" />
+  <Item Name="nav.add.new" Value="Yeni oluştur" />
+  <Item Name="nav.add.bulk" Value="Toplu Ekle" />
+  <Item Name="nav.add+" Value="Ekle »" />
+  <Item Name="nav.all" Value="Hepsi" />
+  <Item Name="nav.apply" Value="Uygula" />
+  <Item Name="nav.back.to.list" Value="Listeye dön" />
+  <Item Name="nav.cancel" Value="İptal" />
+  <Item Name="nav.check" Value="Kontrol et" />
+  <Item Name="nav.choose.all" Value="Tümünü seç" />
+  <Item Name="nav.all" Value="Tümü" />
+  <Item Name="nav.clear" Value="Temizle" />
+  <Item Name="nav.confirm" Value="Emin misiniz?" />
+  <Item Name="nav.copy" Value="Kopyala" />
+  <Item Name="nav.delete" Value="Sil" />
+  <Item Name="delete.member" Value="Üyeyi sil!" />
+  <Item Name="nav.delete.selected" Value="Seçilenleri sil" />
+  <Item Name="nav.detail" Value="Detay" />
+  <Item Name="nav.disabled" Value="Pasif" />
+  <Item Name="nav.edit" Value="Güncelle" />
+  <Item Name="nav.price.edit" Value="Fiyat Güncelle" />
+  <Item Name="nav.enabled" Value="Aktif" />
+  <Item Name="nav.forgot.password" Value="Şifrenizi mi unuttunuz?" />
+  <Item Name="password.sent" Value="Şifreniz e-posta adresinize gönderilmiştir." />
+  <Item Name="password.not.sent" Value="Şifreniz e-posta adresinize gönderilemedi. E-posta adresinizin doğru olduğundan emin olun." />
+  <Item Name="password.reminder.subject" Value="Giriş bilgileriniz" />
+  <Item Name="new.member.subject" Value="Cepstop'a hoşgeldiniz!" />
+  <Item Name="nav.generate" Value="İsim oluştur" />
+  <Item Name="nav.login" Value="Giriş yap" />
+  <Item Name="nav.logout" Value="Çıkış" />
+  <Item Name="nav.mark.read" Value="Okundu olarak işaretle" />
+  <Item Name="nav.mark.unread" Value="Okunmadı olarak işaretle" />
+  <Item Name="nav.new" Value="Yeni" />
+  <Item Name="nav.next" Value="İlerle »" />
+  <Item Name="nav.next.month" Value="Sonraki ay »" />
+  <Item Name="nav.ok" Value="Kaydet" />
+  <Item Name="nav.ok.continue" Value="Kaydet ve yeni ekle" />
+  <Item Name="nav.okay" Value="Tamam" />
+  <Item Name="nav.previous" Value="« Geri" />
+  <Item Name="nav.previous.month" Value="« Önceki ay" />
+  <Item Name="nav.profile" Value="Profilim" />
+  <Item Name="nav.refresh" Value="Yenile" />
+  <Item Name="nav.register" Value="Üye ol" />
+  <Item Name="nav.remind" Value="Gönder" />
+  <Item Name="nav.remove" Value="« Çıkar" />
+  <Item Name="nav.remove.all" Value="« Tümünü çıkar" />
+  <Item Name="nav.remove.selected" Value="« Seçilenleri çıkar" />
+  <Item Name="nav.report" Value="Raporla" />
+  <Item Name="nav.undo" Value="Geri al" />
+  <Item Name="nav.back" Value="Geri" />
+  <Item Name="nav.confirm.order" Value="Ödeme" />
+  <Item Name="nav.reset" Value="Temizle" />
+  <Item Name="nav.save" Value="Kaydet" />
+  <Item Name="nav.approve" Value="Onayla ve Kaydet" />
+  <Item Name="nav.approve.revision" Value="Fiyatı Onayla"/>
+  <Item Name="nav.reject.revision" Value="Fiyatı Reddet"/>
+  <Item Name="nav.search" Value="Ara" />
+  <Item Name="nav.request.info" Value="Kargo Bilgisi İste" />
+  <Item Name="nav.send" Value="Gönder" />
+  <Item Name="nav.settings" Value="Ayarlar" />
+  <Item Name="new" Value="Yeni" />
+  <Item Name="new.message" Value="Mesaj gönder" />
+  <Item Name="no" Value="Hayır" />
+  <Item Name="yes" Value="Evet" />
+
+  <Item Name="no.unread.messages" Value="Okunmamış mesajınız yok." />
+
+  <Item Name="ok.save" Value="Kaydedildi." />
+  <Item Name="ok.changes.saved" Value="Değişiklikleriniz kaydedildi." />
+  <Item Name="ok.send.email" Value="Email başarıyla gönderildi" />
+
+  <Item Name="op.add.ok" Value="Eklendi" />
+  <Item Name="op.delete.ok" Value="Silindi" />
+  <Item Name="op.result.exception" Value="Dosya yüklenirken bir hata oluştu. Dosya boyutu çok fazla ise, küçültüp tekrar deneyin." />
+  <Item Name="op.result.file.without.extension" Value="Uzantısız bir dosya yüklemeye çalıştınız." />
+  <Item Name="op.result.invalid.extension" Value="İzin verilmeyen uzantıya sahip bir dosya yüklemeye çalıştınız.\n\n(İzin verilen uzantılar: {0})" />
+  <Item Name="op.result.large.file" Value="Dosya boyutu çok büyük, lütfen küçültüp tekrar deneyin.\n\n(Max: {0} byte)" />
+  <Item Name="op.result.nofile" Value="Lütfen dosya seçiniz." />
+  <Item Name="op.result.OK" Value="Dosya yüklendi." />
+  <Item Name="op.update.ok" Value="Güncellendi" />
+
+  <Item Name="req" Value="Gerekli alan" />
+
+  <Item Name="form.SerialID" Value="İlan no" />
+  <Item Name="form.SellID" Value="Satış no" />
+  <Item Name="form.Code" Value="SMS ile gelen kod" />
+  <Item Name="form.ImageID" Value="Resim no" />
+  <Item Name="form.CompanyBank" Value="BNC Bankası" />
+  <Item Name="form.CustomerBank" Value="Müşteri bankası" />
+  <Item Name="form.same.addresses" Value="Teslimat ve Fatura adresim aynıdır" />
+  <Item Name="form.MemberName" Value="Üye adı" />
+  <Item Name="form.CountryID" Value="Ülke" />
+  <Item Name="form.CityID" Value="Şehir" />
+  <Item Name="form.DeviceTypeID" Value="Cihaz Türü" />
+  <Item Name="form.BranchOfficeID" Value="Şube" />
+  <Item Name="form.BrandID" Value="Marka" />
+  <Item Name="form.ModelID" Value="Model no" />
+  <Item Name="form.DefImagePath" Value="İlan resmi" />
+  <Item Name="form.IsFeatured" Value="Özel ilan" />
+  <Item Name="form.SumAccessory" Value="Aksesuarlar" />
+  <Item Name="form.SumCondition" Value="Cihaz durumu" />
+  <Item Name="form.ScratchID" Value="Çizik durumu" />
+  <Item Name="form.Notes" Value="Satıcı notu" />
+  <Item Name="form.NoteID" Value="Satıcı notu" />
+  <Item Name="form.ModelName" Value="Model" />
+  <Item Name="form.FinalPrice" Value="Tutar" />
+  <Item Name="form.Approved" Value="Onay" />
+  <Item Name="form.Received" Value="Teslim" />
+  <Item Name="form.PaidBack" Value="İade Yapıldı" />
+  <Item Name="form.UserChequeID" Value="Çek" />
+  <Item Name="form.ChequeValue" Value="Çek Değeri" />
+  <Item Name="form.UseDate" Value="Kullanılma Tarihi" />
+
+  <Item Name="form.New" Value="Yeni" />
+  <Item Name="form.Perfect" Value="Hatasız" />
+  <Item Name="form.Good" Value="İyi" />
+  <Item Name="form.Broken" Value="Sorunlu" />
+  <Item Name="form.Repaired" Value="Tamir durumu" />
+  <Item Name="form.Guaranteed" Value="Garanti" />
+  <Item Name="form.Guaranteed.For" Value="Var" />
+  <Item Name="form.LocalIMEI" Value="Yurtiçi IMEI" />
+  <Item Name="form.OverseasIMEI" Value="Pasaport IMEI" />
+  <Item Name="form.OriginalBox" Value="Orijinal kutu" />
+  <Item Name="form.Adapter" Value="Adaptör" />
+  <Item Name="form.Microphone" Value="Kulaklık" />
+  <Item Name="form.IMEI" Value="IMEI" />
+  <Item Name="form.Scratched" Value="Durum" />
+
+  <Item Name="form.Status" Value="Durum" />
+  <Item Name="form.Sold" Value="Satıldı mı?" />
+  <Item Name="form.CargoStatusID" Value="Kargo durumu" />
+  <Item Name="form.cntView" Value="Görüntülenme" />
+  <Item Name="form.cntShare" Value="Paylaşılma" />
+  <Item Name="form.cntFavorite" Value="Favori sayısı" />
+  <Item Name="form.LastUpdate" Value="Son güncelleme" />
+  <Item Name="form.CreateDate" Value="Kayıt tarihi" />
+
+  <Item Name="nav.buy" Value="Al" />
+  <Item Name="nav.sell" Value="Sat" />
+  <Item Name="nav.sellNow" Value="Hemen Sat" />
+
+  <Item Name="seciniz" Value="Seçiniz..." />
+  <Item Name="see.all.messages" Value="Tüm mesajları gör." />
+  <Item Name="all.brands" Value="Tüm Markalar" />
+  <Item Name="pick.brand.first" Value="Önce marka seçiniz" />
+  <Item Name="all.models" Value="Tüm Modeller" />
+  <Item Name="all.prices" Value="Tüm Fiyatlar" />
+
+  <Item Name="order-completed-subject" Value="Cepstop Sipariş Bilgileriniz" />
+  <Item Name="subject.activation.code" Value="Aktivasyon Kodunuz" />
+  <Item Name="subject.password.reminder" Value="Şifre Hatırlatma Servisi" />
+  <Item Name="upload.browse" Value="Dosya seç" />
+  <Item Name="upload.change" Value="Değiştir" />
+  <Item Name="upload.remove" Value="Dosyayı kaldır" />
+  <Item Name="upload.upload" Value="Dosya yükle" />
+  <Item Name="form.nodata" Value="İstediğiniz kayıta erişilemiyor" />
+  <Item Name="ui.gridview.pagertext" Value="&lt;div class='GridPagerText'&gt;&lt;div&gt;Toplam &lt;b&gt;{0}&lt;/b&gt; kayıt. Sayfa &lt;b&gt;{2}&lt;/b&gt; / &lt;b&gt;{1}&lt;/b&gt;.&lt;/div&gt;&lt;/div&gt;" />
+  <Item Name="ui.gridview.nodata" Value="&lt;div class='GridNoData alert alert-error'&gt;&lt;div&gt;Uygun kayıt bulunamadı.&lt;/div&gt;&lt;/div&gt;" />
+
+  <Item Name="dbtable.Address" Value="Adres" />
+  <Item Name="dbtable.Admin" Value="Yönetici" />
+  <Item Name="dbtable.Bank" Value="Banka" />
+  <Item Name="dbtable.BankAccount" Value="Banka Hesabı" />
+  <Item Name="dbtable.BankRate" Value="Taksit oranı" />
+  <Item Name="dbtable.Brand" Value="Marka" />
+  <Item Name="dbtable.CardBin" Value="Bin" />
+  <Item Name="dbtable.CargoWaiting" Value="Kargosu Beklenen Ürünler" />
+  <Item Name="dbtable.DeliveryWaiting" Value="Teslimatı Beklenen Ürünler" />
+  <Item Name="dbtable.CargoInspecting" Value="İncelenen Ürünler" />
+  <Item Name="dbtable.BrowseProducts" Value="Gezilen Ürünler" />
+  <Item Name="dbtable.CartProducts" Value="Sepetteki Ürünler" />
+  <Item Name="dbtable.CargoKey" Value="Kargo Kodu" />
+  <Item Name="dbtable.Carousel" Value="Carousel" />
+  <Item Name="dbtable.CarouselItem" Value="Carousel Elemanı" />
+  <Item Name="dbtable.Cart" Value="Sepet" />
+  <Item Name="dbtable.CargoOffice" Value="MNG Kargo" />
+  <Item Name="dbtable.CartItem" Value="Sepet elemanı" />
+  <Item Name="dbtable.Charity" Value="Bağış kurumu" />
+  <Item Name="dbtable.City" Value="Şehir" />
+  <Item Name="dbtable.ContactLog" Value="İletişim mesajı" />
+  <Item Name="dbtable.Content" Value="Statik içerik" />
+  <Item Name="dbtable.CosmeticInspection" Value="Kozmetik İncelemedeki Ürünler" />
+  <Item Name="dbtable.Country" Value="Ülke" />
+  <Item Name="dbtable.Coupon" Value="Kupon" />
+  <Item Name="dbtable.crFavorite" Value="crFavorite" />
+  <Item Name="dbtable.crSerialOption" Value="crSerialOption" />
+  <Item Name="dbtable.crSerialView" Value="crSerialView" />
+  <Item Name="dbtable.KVKShop" Value="KVK Shop" />
+  <Item Name="dbtable.luAccessory" Value="luAccessory" />
+  <Item Name="dbtable.luColor" Value="luColor" />
+  <Item Name="dbtable.luCondition" Value="luCondition" />
+  <Item Name="dbtable.luDeviceType" Value="luDeviceType" />
+  <Item Name="dbtable.Member" Value="Üye" />
+  <Item Name="dbtable.MemberOrder" Value="Sipariş" />
+  <Item Name="dbtable.Message" Value="Mesaj" />
+  <Item Name="dbtable.Model" Value="Model" />
+  <Item Name="dbtable.ModelFeature" Value="Model Özellik" />
+  <Item Name="dbtable.ModelPrice" Value="Model Fiyatı" />
+  <Item Name="dbtable.ModelProperty" Value="Model Seçenek" />
+  <Item Name="dbtable.Option" Value="Seçenek" />
+  <Item Name="dbtable.OrderDetail" Value="Sipariş kalemi" />
+  <Item Name="dbtable.Pagelet" Value="Statik sayfa" />
+  <Item Name="dbtable.Payment" Value="Ödeme" />
+  <Item Name="dbtable.PaymentType" Value="Ödeme türü" />
+  <Item Name="dbtable.Property" Value="Ürün Özelliği" />
+  <Item Name="dbtable.Question" Value="Soru" />
+  <Item Name="dbtable.Serial" Value="İlan" />
+  <Item Name="dbtable.SerialDonation" Value="Bağış" />
+  <Item Name="dbtable.SerialNote" Value="Not" />
+  <Item Name="dbtable.SerialPicture" Value="İlan resmi" />
+  <Item Name="dbtable.Product" Value="Ürün" />
+  <Item Name="dbtable.Choice" Value="Ürün Seçeneği" />
+  <Item Name="dbtable.ProductImage" Value="Ürün Resmi" />
+  <Item Name="dbtable.Category" Value="Kategori" />
+  <Item Name="dbtable.UserCheque" Value="Hediye Çeki" />
+  <Item Name="dbtable.Variant" Value="Varyant" />
+
+  <Item Name="form.Memory" Value="Hafıza" />
+  <Item Name="form.ConditionID" Value="Telefon Durumu" />
+  <Item Name="form.ColorID" Value="Renk" />
+  <Item Name="form.MembersCanSell" Value="Üyeler Satabilir" />
+  <Item Name="form.MembersCanBuy" Value="Üyeler Alabilir" />
+
+  <Item Name="title.status.Perfect" Value="'Mükemmel' ne demek?" />
+  <Item Name="title.status.Good" Value="'İyi' ne demek?" />
+  <Item Name="title.status.Problem" Value="'Sorunlu' ne demek?" />
+  <Item Name="title.status.Outlet" Value="'Outlet' ne demek?" />
+  <Item Name="title.status.FirstHand" Value="'Sıfır' ne demek?" />
+
+  <Item Name="form.status.Perfect" Value="Telefonun donanımsal veya yazılımsal herhangi bir sorunu yok. Kozmetik olarak çok iyi durumda (Ekran, çerçeve ve kapakta kayda değer hiç bir çizik yok). Sıfır veya sıfıra özdeş ürün." />
+  <Item Name="form.status.Good" Value="Telefon açılıyor ve düzgün çalışmasına engel fonksiyonel veya fiziksel bir sorunu yok. Ekran, çerçeve ve kapakta herhangi bir kırık, derin bir çizik veya boya atması yok." />
+  <Item Name="form.status.Problem" Value="Telefon açılıyor fakat düzgün çalışmasına engel fonksiyonel veya fiziksel problemi var." />
+  <Item Name="form.status.Outlet" Value="Kutu ambalajı açık/kutusu hasarlı veya değişimde sıfırlanmış, KVK garantili sıfır ürün." />
+  <Item Name="form.status.Outlet.Genpa" Value="Kutu ambalajı açık/kutusu hasarlı veya değişimde sıfırlanmış, Apple garantili sıfır ürün." />
+  <Item Name="form.status.FirstHand" Value="24 Ay KVK garantili sıfır ürün." />
+  <Item Name="form.status.FirstHand.Genpa" Value="24 Ay Apple garantili sıfır ürün." />
+
+  <Item Name="form.status.PerfectXmp" Value=" Sıfır veya sıfıra özdeş ürün." />
+  <Item Name="form.status.GoodXmp" Value="Ekran, çerçeve ve kapakta herhangi bir kırık, derin bir çizik veya boya atması yok." />
+  <Item Name="form.status.ProblemXmp" Value="Örn: Bozuk dokunmatik, kırık ekran, eksik tuş/parça, çalışmayan donanım." />
+  <Item Name="form.status.OutletXmp" Value="" />
+  <Item Name="form.status.FirstHandXmp" Value="" />
+
+  <Item Name="form.rent.line.1" Value="* Kiralanan ürün, 12. (son) aya ait kira bedeli tahsil edildikten sonra depozitonun bırakılması karşılığında müşteriye ait olur."/>
+  <Item Name="form.rent.line.2" Value="* Müşteri dilerse ürünü gönderip depozito tutarını geri alabilir."/>
+  <Item Name="form.rent.line.3" Value="* Müşteri dilerse eski depozitosu ile üst modele geçerek ürün kiralamaya devam edebilir."/>
+
+  <Item Name="per.month" Value="/ay" />
+  <Item Name="model.out.of.stock" Value="Stokta Yok" />
+  <Item Name="holiday.cargo.delay" Value="Bayram tatili süresince verilen siparişler 28.09.15 tarihinde kargoya teslim edilecektir." />
+
+  <Item Name="form.ResellerID" Value="Reseller ID" />
+  <Item Name="form.ResellerName" Value="Reseller Adı" />
+  <Item Name="dbtable.luReseller" Value="Reseller" />
+  
+  <Item Name="dbtable.ResellerStock" Value="Reseller Stok" />
+
+  <Item Name="form.MemberEmail" Value="Üye E-mail" />
+  <Item Name="form.OrderCompleted" Value="Siparişe Çevir?" />
+
+  <Item Name="dbtable.ResellerOrder" Value="Reseller Satış" />
+
+  <Item Name="nav.oc" Value="Siparişe Çevir" />
+
+  <Item Name="dbtable.MenuNav" Value="Menü" />
+  <Item Name="form.Caption" Value="Başlık" />
+  <Item Name="form.CreatedBy" Value="Oluşturan" />
+  <Item Name="form.CreatedDate" Value="Oluşturma Tarihi" />
+  <Item Name="form.UpdatedBy" Value="Güncelleyen" />
+  <Item Name="form.UpdatedDate" Value="Güncelleme Tarihi" />
+  <Item Name="form.FriendlyUrl" Value="Kalıcı Bağlantı" />
+  <Item Name="form.ParentCategoryID" Value="Üst Kategori" />
+  <Item Name="form.Order" Value="Sıra" />
+  <Item Name="form.CategoryTypeID" Value="Kategori Tipi" />
+
+  <Item Name="dbtable.Post" Value="Yazı" />
+  <Item Name="form.Summary" Value="Özet" />
+  <Item Name="form.Content" Value="İçerik" />
+  <Item Name="form.Tags" Value="Etiket" />
+  <Item Name="form.MetaTitle" Value="Meta Başlığı" />
+  <Item Name="form.MetaDescription" Value="Meta Açıklaması" />
+  <Item Name="form.MetaKeywords" Value="Meta Etiketleri" />
+  <Item Name="form.CanonicalUrl" Value="Canonical URL" />
+  <Item Name="form.NoIndex" Value="No Index" />
+  <Item Name="form.NoFollow" Value="No Follow" />
+
+  <Item Name="title.location" Value="Adres" />
+  <Item Name="title.call" Value="Bizi Arayın" />
+  <Item Name="title.mailus" Value="E-Posta" />
+  <Item Name="title.about" Value="hakkımızda" />
+  <Item Name="title.partners" Value="iş ortakları" />
+  <Item Name="title.portfolio" Value="ürün grupları" />
+  <Item Name="title.blog" Value="blog" />
+  <Item Name="title.all" Value="Tümü" />
+  <Item Name="title.name" Value="Ad *" />
+  <Item Name="title.email" Value="E-Posta *" />
+  <Item Name="title.phone" Value="Telefon" />
+  <Item Name="title.comment" Value="Mesaj" />
+  <Item Name="title.send" Value="Gönder" />
+  <Item Name="mail.ok" Value="Mail iletilmiştir." />
+  <Item Name="mail.error" Value="Mail iletilemedi, daha sonra tekrar deneyiniz." />
+
+  <Item Name="title.underc" Value="yapım aşamasında..." />
+  <Item Name="button.home" Value="anasayfaya dön" />
+</Items>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D1E9149-7803-4449-AF65-4E1BCE1A3990}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessObjects</RootNamespace>
+    <AssemblyName>BusinessObjects</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="blowery.Web.HttpCompress">
+      <HintPath>..\SolutionItems\blowery.Web.HttpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="ePayment">
+      <HintPath>..\SolutionItems\ePayment.dll</HintPath>
+    </Reference>
+    <Reference Include="PosnetDotNetModule">
+      <HintPath>..\SolutionItems\PosnetDotNetModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObjects\Activity.cs" />
+    <Compile Include="BusinessObjects\Address.cs" />
+    <Compile Include="BusinessObjects\City.cs" />
+    <Compile Include="BusinessObjects\Contact.cs" />
+    <Compile Include="BusinessObjects\Content.cs" />
+    <Compile Include="BusinessObjects\Country.cs" />
+    <Compile Include="BusinessObjects\Customer.cs" />
+    <Compile Include="BusinessObjects\District.cs" />
+    <Compile Include="BusinessObjects\Member.cs" />
+    <Compile Include="BusinessObjects\OrderDetail.cs" />
+    <Compile Include="BusinessObjects\OrderMain.cs" />
+    <Compile Include="BusinessObjects\Params.cs" />
+    <Compile Include="BusinessObjects\Product.cs" />
+    <Compile Include="Common\Cacher.cs" />
+    <Compile Include="Common\EntityManager.cs" />
+    <Compile Include="Common\CacheManager.cs" />
+    <Compile Include="Common\CustomQueries.cs" />
+    <Compile Include="Common\LogManager.cs" />
+    <Compile Include="Common\MailManager.cs" />
+    <Compile Include="Managers\ActivityManager.cs" />
+    <Compile Include="Managers\AddressManager.cs" />
+    <Compile Include="Managers\CityManager.cs" />
+    <Compile Include="Managers\ContactManager.cs" />
+    <Compile Include="Managers\ContentManager.cs" />
+    <Compile Include="Managers\CountryManager.cs" />
+    <Compile Include="Managers\CustomerManager.cs" />
+    <Compile Include="Managers\DistrictManager.cs" />
+    <Compile Include="Managers\MemberManager.cs" />
+    <Compile Include="Managers\OrderDetailManager.cs" />
+    <Compile Include="Managers\OrderMainManager.cs" />
+    <Compile Include="Managers\ParamsManager.cs" />
+    <Compile Include="Managers\ProductManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{28418e3d-43aa-4690-8675-15ecb2dead6c}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{28418E3D-43AA-4690-8675-15ECB2DEAD6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{4D1E9149-7803-4449-AF65-4E1BCE1A3990}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E76FB6AC-CF43-439E-B17F-34C0E21F1382}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessObjects", "BusinessObjects", "{4436180B-4071-4177-8B0F-74E423A56992}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{24DFF4E0-AD96-4CBD-B91F-95F58E2CC1D2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NoktaCRM.Web", "http://localhost:42779", "{592B59E2-1D3A-49CF-99C8-4B106F09B167}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{47528c24-bee6-4330-9c38-493b26913c06}|NoktaCRM.Web.UI.dll;{28418E3D-43AA-4690-8675-15ECB2DEAD6C}|Utility.dll;{4d1e9149-7803-4449-af65-4e1bce1a3990}|BusinessObjects.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_42779"
+		Debug.AspNetCompiler.PhysicalPath = "NoktaCRM.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42779\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_42779"
+		Release.AspNetCompiler.PhysicalPath = "NoktaCRM.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_42779\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "NoktaCRM.Web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoktaCRM.Web.UI", "NoktaCRM.Web.UI\NoktaCRM.Web.UI.csproj", "{47528C24-BEE6-4330-9C38-493B26913C06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		x86|Any CPU = x86|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28418E3D-43AA-4690-8675-15ECB2DEAD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28418E3D-43AA-4690-8675-15ECB2DEAD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28418E3D-43AA-4690-8675-15ECB2DEAD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28418E3D-43AA-4690-8675-15ECB2DEAD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28418E3D-43AA-4690-8675-15ECB2DEAD6C}.x86|Any CPU.ActiveCfg = Release|Any CPU
+		{28418E3D-43AA-4690-8675-15ECB2DEAD6C}.x86|Any CPU.Build.0 = Release|Any CPU
+		{4D1E9149-7803-4449-AF65-4E1BCE1A3990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1E9149-7803-4449-AF65-4E1BCE1A3990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1E9149-7803-4449-AF65-4E1BCE1A3990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1E9149-7803-4449-AF65-4E1BCE1A3990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1E9149-7803-4449-AF65-4E1BCE1A3990}.x86|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1E9149-7803-4449-AF65-4E1BCE1A3990}.x86|Any CPU.Build.0 = Release|Any CPU
+		{592B59E2-1D3A-49CF-99C8-4B106F09B167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592B59E2-1D3A-49CF-99C8-4B106F09B167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592B59E2-1D3A-49CF-99C8-4B106F09B167}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{592B59E2-1D3A-49CF-99C8-4B106F09B167}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{592B59E2-1D3A-49CF-99C8-4B106F09B167}.x86|Any CPU.ActiveCfg = Debug|Any CPU
+		{592B59E2-1D3A-49CF-99C8-4B106F09B167}.x86|Any CPU.Build.0 = Debug|Any CPU
+		{47528C24-BEE6-4330-9C38-493B26913C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47528C24-BEE6-4330-9C38-493B26913C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47528C24-BEE6-4330-9C38-493B26913C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47528C24-BEE6-4330-9C38-493B26913C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47528C24-BEE6-4330-9C38-493B26913C06}.x86|Any CPU.ActiveCfg = Release|Any CPU
+		{47528C24-BEE6-4330-9C38-493B26913C06}.x86|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28418E3D-43AA-4690-8675-15ECB2DEAD6C} = {24DFF4E0-AD96-4CBD-B91F-95F58E2CC1D2}
+		{4D1E9149-7803-4449-AF65-4E1BCE1A3990} = {4436180B-4071-4177-8B0F-74E423A56992}
+		{592B59E2-1D3A-49CF-99C8-4B106F09B167} = {E76FB6AC-CF43-439E-B17F-34C0E21F1382}
+		{47528C24-BEE6-4330-9C38-493B26913C06} = {24DFF4E0-AD96-4CBD-B91F-95F58E2CC1D2}
+	EndGlobalSection
+EndGlobal

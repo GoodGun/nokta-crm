@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rewriter>
+  <!-- Statik sayfalar-->  
+  <rewrite url="~/merge-([^/]+)\?([^/]+)" to="~/c.aspx?type=$1&amp;src=$2" processing="stop"/>
+  <rewrite url="^(/.+(\.gif|\.png|\.htm|\.jpg|\.ico|\.pdf|\.css|\.js)(\?.+)?)$" to="$1" processing="stop" />
+  <rewrite url="^(/.+(\.axd)(\?.+)?)$" to="$1" processing="stop" />
+  <rewrite url="~/login\?([^/]+)" to="~/Stuff/Login.aspx?Op=Login&amp;$1" processing="stop"/>
+  <rewrite url="~/login" to="~/Stuff/Login.aspx?Op=Login" processing="stop"/>
+  
+  <rewrite url="~/lng/(.+)" to="~/Stuff/ChangeLang.aspx?Lang=$1" processing="stop"/>
+  <rewrite url="~/lng" to="~/Stuff/ChangeLang.aspx" processing="stop"/>
+  <rewrite url="~/error-([^/]+)" to="~/Stuff/Error.aspx?key=$1" processing="stop"/>
+  <rewrite url="~/error" to="~/Stuff/Error.aspx?key=general" processing="stop"/>
+  <rewrite url="~/modal-(.+)\?(.+)" to="~/$1?Modal=1&amp;$2" />
+  <rewrite url="~/modal-(.+)" to="~/$1?Modal=1" />
+
+  <rewrite url="~/new-([^/]+)\?([^/]+)" to="~/Pages/$1/$1Edit.aspx?$2" processing="stop"/>
+  <rewrite url="~/new-([^/]+)" to="~/Pages/$1/$1Edit.aspx" processing="stop"/>
+  <rewrite url="~/([^/]+)-detail/([^/]+)\?([^/]+)" to="~/Pages/$1/$1Detail.aspx?$1ID=$2&amp;$3" processing="stop"/>
+  <rewrite url="~/([^/]+)-detail/([^/]+)" to="~/Pages/$1/$1Detail.aspx?$1ID=$2" processing="stop"/>
+  <rewrite url="~/([^/]+)-edit/([^/]+)\?([^/]+)" to="~/Pages/$1/$1Edit.aspx?$1ID=$2&amp;$3" processing="stop"/>
+  <rewrite url="~/([^/]+)-edit/([^/]+)" to="~/Pages/$1/$1Edit.aspx?$1ID=$2" processing="stop"/>
+  <rewrite url="~/([^/]+)-report/([^/]+)\?([^/]+)" to="~/Pages/$1/$1Report.aspx?$1ID=$2&amp;$3" processing="stop"/>
+  <rewrite url="~/([^/]+)-report/([^/]+)" to="~/Pages/$1/$1Report.aspx?$1ID=$2" processing="stop"/>
+  <rewrite url="~/([^/]+)-list\?([^/]+)" to="~/Pages/$1/$1List.aspx?$2" processing="stop"/>
+  <rewrite url="~/([^/]+)-list" to="~/Pages/$1/$1List.aspx" processing="stop"/>
+  
+  <rewrite url="~/logout" to="~/Default.aspx?Logout=1" processing="stop"/>
+</rewriter>

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item	Name="*"	Value="*" />
+  <Item	Name="add.new.address"	Value="-- ADD ADDRESS --" />
+  <Item	Name="add.new.bankaccount"	Value="-- ADD ACCOUNT --" />
+  <Item	Name="add.new.charity"	Value="-- ADD UNLISTED ORGANIZATION -- " />
+  <Item	Name="all.brands"	Value="All Brands" />
+  <Item	Name="all.models"	Value="All Models" />
+  <Item	Name="all.prices"	Value="All Prices" />
+  <Item	Name="cart.added"	Value="Added to basket" />
+  <Item	Name="cart.already.added"	Value="Item already added" />
+  <Item	Name="cart.empty"	Value="Your cart is empty" />
+  <Item	Name="cart.expired"	Value="Your cart expired due to session timeout." />
+  <Item	Name="cart.general.error"	Value="An error occurred adding item to basket. Please try again later" />
+  <Item	Name="cart.its.your.serial"	Value="You can't buy your own item." />
+  <Item	Name="cart.no.such.product"	Value="No such product." />
+  <Item	Name="cart.no.such.serial"	Value="No such item." />
+  <Item	Name="cart.other.users.cart"	Value="Item is in another user's basket" />
+  <Item	Name="cart.product.inactive"	Value="Item is not approved." />
+  <Item	Name="cart.product.outofstock"	Value="Product out of stock." />
+  <Item	Name="cart.removed"	Value="Item removed" />
+  <Item	Name="cart.serial.inactive"	Value="Item has been removed by the seller." />
+  <Item	Name="cart.serial.sold"	Value="Item has been sold." />
+  <Item	Name="cart.serial.unapproved"	Value="Serial is not approved." />
+  <Item	Name="dbtable.Address"	Value="Address" />
+  <Item	Name="dbtable.Admin"	Value="Admin" />
+  <Item	Name="dbtable.Bank"	Value="Bank" />
+  <Item	Name="dbtable.BankAccount"	Value="Bank Account" />
+  <Item	Name="dbtable.BankRate"	Value="Bank Rate" />
+  <Item	Name="dbtable.Brand"	Value="Brand" />
+  <Item	Name="dbtable.CardBin"	Value="Bin" />
+  <Item	Name="dbtable.Carousel"	Value="Carousel" />
+  <Item	Name="dbtable.CarouselItem"	Value="Carousel Item" />
+  <Item	Name="dbtable.Cart"	Value="Cart" />
+  <Item	Name="dbtable.CartItem"	Value="Cart Item" />
+  <Item	Name="dbtable.Category"	Value="Category" />
+  <Item	Name="dbtable.Charity"	Value="Charity" />
+  <Item	Name="dbtable.Choice"	Value="Product Choice" />
+  <Item	Name="dbtable.City"	Value="City" />
+  <Item	Name="dbtable.ContactLog"	Value="Contact Log" />
+  <Item	Name="dbtable.Content"	Value="Content" />
+  <Item	Name="dbtable.Country"	Value="Country" />
+  <Item	Name="dbtable.crFavorite"	Value="crFavorite" />
+  <Item	Name="dbtable.crModelProperty"	Value="crModelProperty" />
+  <Item	Name="dbtable.crSerialOption"	Value="crSerialOption" />
+  <Item	Name="dbtable.crSerialView"	Value="crSerialView" />
+  <Item	Name="dbtable.luAccessory"	Value="luAccessory" />
+  <Item	Name="dbtable.luColor"	Value="luColor" />
+  <Item	Name="dbtable.luCondition"	Value="luCondition" />
+  <Item	Name="dbtable.luDeviceType"	Value="luDeviceType" />
+  <Item	Name="dbtable.Member"	Value="Member" />
+  <Item	Name="dbtable.MemberOrder"	Value="Order" />
+  <Item	Name="dbtable.Message"	Value="Message" />
+  <Item	Name="dbtable.Model"	Value="Model" />
+  <Item	Name="dbtable.ModelPrice"	Value="Model Price" />
+  <Item	Name="dbtable.Option"	Value="Option" />
+  <Item	Name="dbtable.OrderDetail"	Value="Order line" />
+  <Item	Name="dbtable.Pagelet"	Value="Pagelet" />
+  <Item	Name="dbtable.Payment"	Value="Payment" />
+  <Item	Name="dbtable.PaymentType"	Value="Payment Type" />
+  <Item	Name="dbtable.Product"	Value="Product" />
+  <Item	Name="dbtable.ProductImage"	Value="Product Image" />
+  <Item	Name="dbtable.Property"	Value="Product Property" />
+  <Item	Name="dbtable.Serial"	Value="Serial" />
+  <Item	Name="dbtable.SerialDonation"	Value="Donation" />
+  <Item	Name="dbtable.SerialNote"	Value="Note" />
+  <Item	Name="dbtable.SerialPicture"	Value="Serial Picture" />
+  <Item	Name="delete.member"	Value="Delete member!!" />
+  <Item	Name="err.add.this.first"	Value="You have to create a new record using this page to continue your process." />
+  <Item	Name="err.agreement"	Value="Please read and accept the agreement." />
+  <Item	Name="err.already.added"	Value="This record is already added." />
+  <Item	Name="err.bad.login"	Value="Invalid credentials. Please try again." />
+  <Item	Name="err.bank.response"	Value="Payment rejected by your bank. Please check your information and try again." />
+  <Item	Name="err.cart.manipulation"	Value="Your cart information was changed during this operation. Please restart your operation from Basket step." />
+  <Item	Name="err.cc.invalid.for.installment"	Value="This card doesn't support installment." />
+  <Item	Name="err.cc.invalid.format"	Value="Invalid card number format." />
+  <Item	Name="err.cc.invalid.number"	Value="Invalid card number." />
+  <Item	Name="err.cc.number"	Value="Enter your card number." />
+  <Item	Name="err.delete"	Value="Error deleting the record." />
+  <Item	Name="err.email"	Value="Please enter a valid e-mail." />
+  <Item	Name="err.email.exists"	Value="This email is already registered. Please log in, or click Forgot Password link." />
+  <Item	Name="err.email.repeat"	Value="Please enter your password again." />
+  <Item	Name="err.general"	Value="An error occurred while processing page&lt;br&gt;Please try again later." />
+  <Item	Name="err.iban.invalid"	Value="Please check your IBAN number." />
+  <Item	Name="err.iban.invalid.chars"	Value="Invalid characters in IBAN" />
+  <Item	Name="err.iban.invalid.length"	Value="IBAN length invalid." />
+  <Item	Name="err.invalid"	Value="Please check your input." />
+  <Item	Name="err.login.first"	Value="You have to sign in or sign up to continue." />
+  <Item	Name="err.max.choice"	Value="This field has max length restriction." />
+  <Item	Name="err.member.disabled"	Value="Your account is disabled." />
+  <Item	Name="err.no.data"	Value="No matching records." />
+  <Item	Name="err.no.search.results"	Value="No matching records. You might want to remove some filters and try again." />
+  <Item	Name="err.no.selection"	Value="Please select some records." />
+  <Item	Name="err.no.such.user"	Value="No user found matching this email." />
+  <Item	Name="err.number"	Value="Numbers only." />
+  <Item	Name="err.old.password"	Value="Your current password doesn't match our records." />
+  <Item	Name="err.save"	Value="Error saving your changes." />
+  <Item	Name="err.Scratch"	Value="Phone status" />
+  <Item	Name="err.send.email"	Value="Error sending email" />
+  <Item	Name="err.serial.uneditable"	Value="You can't edit this serial." />
+  <Item	Name="err.turkish"	Value="Please use lower characters, numbers and _ character only." />
+  <Item	Name="err.URL"	Value="Invalid URL." />
+  <Item	Name="error.404"	Value="404: Page not found.&lt;br /&gt;Please make sure you typed the address correctly..&lt;br /&gt;Click &lt;a href=&quot;/&quot;&gt;here&lt;/a&gt; for the main page." />
+  <Item	Name="error.auth-id"	Value="You don't have right to access this resource." />
+  <Item	Name="error.cargo.status"	Value="Your serial is invalidated." />
+  <Item	Name="error.general"	Value="You don't have right to access this resource." />
+  <Item	Name="error.page.title"	Value="An error occurred." />
+  <Item	Name="export"	Value="Export" />
+  <Item	Name="filter"	Value="+ FILTER" />
+  <Item	Name="filter.columns"	Value="Select columns" />
+  <Item	Name="filter.no.data"	Value="Not found:" />
+  <Item	Name="footer.about.us"	Value="About us" />
+  <Item	Name="footer.account"	Value="My Account" />
+  <Item	Name="footer.brands"	Value="Brands" />
+  <Item	Name="footer.career"	Value="Career" />
+  <Item	Name="footer.contact"	Value="Contact us" />
+  <Item	Name="footer.how"	Value="How it works?" />
+  <Item	Name="footer.info"	Value="INFO" />
+  <Item	Name="footer.legal"	Value="Legal" />
+  <Item	Name="footer.newsletter"	Value="Bulletin" />
+  <Item	Name="footer.order.history"	Value="Order History" />
+  <Item	Name="footer.privacy"	Value="Privacy" />
+  <Item	Name="footer.sitemap"	Value="Sitemap" />
+  <Item	Name="form.AccountCode"	Value="Account no" />
+  <Item	Name="form.AccountOwner"	Value="Account owner" />
+  <Item	Name="form.Address1"	Value="Address line 1" />
+  <Item	Name="form.Address2"	Value="Address line 2" />
+  <Item	Name="form.AddressID"	Value="Address no" />
+  <Item	Name="form.AdminID"	Value="Admin no" />
+  <Item	Name="form.Agreement"	Value="Agreement" />
+  <Item	Name="form.agreement"	Value="I have read the &lt;a target='_blank' href='/agreement' class='agreement'&gt;agreement&lt;/a&gt; and accepted it." />
+  <Item	Name="form.Amount"	Value="Amount" />
+  <Item	Name="form.Approved"	Value="Approved" />
+  <Item	Name="form.BankAccountID"	Value="Bank account no" />
+  <Item	Name="form.BankAccountName"	Value="Account name" />
+  <Item	Name="form.BankAccountNo"	Value="Account no" />
+  <Item	Name="form.BankAccountType"	Value="Account type" />
+  <Item	Name="form.BankID"	Value="Bank no" />
+  <Item	Name="form.BankName"	Value="Bank" />
+  <Item	Name="form.BgImage"	Value="Css" />
+  <Item	Name="form.BillAddressID"	Value="Billing address" />
+  <Item	Name="form.BirthDate"	Value="Birth date" />
+  <Item	Name="form.BLogo"	Value="Big logo path" />
+  <Item	Name="form.BName"	Value="Brand name" />
+  <Item	Name="form.Body"	Value="Body" />
+  <Item	Name="form.BrandID"	Value="Brand" />
+  <Item	Name="form.Bulletin"	Value="Bulletin" />
+  <Item	Name="form.bulletin"	Value="I want to receive emails from this website." />
+  <Item	Name="form.BulletinOK"	Value="Wants bulletin" />
+  <Item	Name="form.BuyPrice"	Value="Buy Price" />
+  <Item	Name="form.cant.update.cargo"	Value="You can't edit this field because all serials have not reached the office, or the serial has already been given to the cargo company." />
+  <Item	Name="form.cargo.edit.details"	Value="Clicking this button will cause the application to contact Cargo Company" />
+  <Item	Name="form.CargoDate"	Value="Cargo date" />
+  <Item	Name="form.CargoKey"	Value="Cargo code" />
+  <Item	Name="form.CargoKeyUsed"	Value="Code used?" />
+  <Item	Name="form.CargoPrice"	Value="Cargo price" />
+  <Item	Name="form.cargoprice"	Value="Cargo price" />
+  <Item	Name="form.CargoStatusID"	Value="Cargo status" />
+  <Item	Name="form.cart"	Value="My cart" />
+  <Item	Name="form.cart.FinalPrice"	Value="Final price" />
+  <Item	Name="form.cart.UnitPrice"	Value="Unit price" />
+  <Item	Name="form.CategoryID"	Value="Category" />
+  <Item	Name="form.CatName"	Value="Category name" />
+  <Item	Name="form.change.model"	Value="Change model" />
+  <Item	Name="form.CharityDonator"	Value="Donator name" />
+  <Item	Name="form.CharityEmail"	Value="Your email" />
+  <Item	Name="form.CharityID"	Value="Charity no" />
+  <Item	Name="form.CharityName"	Value="Charity name" />
+  <Item	Name="form.CharityPhone"	Value="Phone" />
+  <Item	Name="form.CharityURL"	Value="Charity URL" />
+  <Item	Name="form.ChoiceID"	Value="Choice" />
+  <Item	Name="form.ChoiseName"	Value="Choice name" />
+  <Item	Name="form.CityID"	Value="City" />
+  <Item	Name="form.close"	Value="Close" />
+  <Item	Name="form.cntFavorite"	Value="Favorite count" />
+  <Item	Name="form.cntShare"	Value="Share count" />
+  <Item	Name="form.cntView"	Value="View count" />
+  <Item	Name="form.Commission"	Value="Commission" />
+  <Item	Name="form.CompanyBank"	Value="Local Bank" />
+  <Item	Name="form.CompanyBankID"	Value="Bank" />
+  <Item	Name="form.contact.us"	Value="CONTACT" />
+  <Item	Name="form.ContactLogID"	Value="Message no" />
+  <Item	Name="form.ContentID"	Value="Content no" />
+  <Item	Name="form.copyright"	Value="Meramobile 2013. All rights reserved ©" />
+  <Item	Name="form.CountryID"	Value="Country" />
+  <Item	Name="form.CreateDate"	Value="Create date" />
+  <Item	Name="form.CustomerBank"	Value="Customer Bank" />
+  <Item	Name="form.CustomerBankID"	Value="Customer bank" />
+  <Item	Name="form.Date"	Value="Date" />
+  <Item	Name="form.DefaultPrice"	Value="Suggested price" />
+  <Item	Name="form.DefImageID"	Value="Default image" />
+  <Item	Name="form.DefImagePath"	Value="Image" />
+  <Item	Name="form.delete"	Value="Delete" />
+  <Item	Name="form.Deleted"	Value="Deleted" />
+  <Item	Name="form.delivery.options"	Value="DELIVERY OPTIONS" />
+  <Item	Name="form.DeliveryAddressID"	Value="Delivery Address" />
+  <Item	Name="form.DepartmentCode"	Value="Department code" />
+  <Item	Name="form.Description"	Value="Description" />
+  <Item	Name="form.detail"	Value="Details" />
+  <Item	Name="form.DeviceTypeID"	Value="Device Type" />
+  <Item	Name="form.discount"	Value="Discount" />
+  <Item	Name="form.DiscountAmount"	Value="Discount amount" />
+  <Item	Name="form.District"	Value="District" />
+  <Item	Name="form.DistrictID"	Value="District" />
+  <Item	Name="form.DueCount"	Value="Installment" />
+  <Item	Name="form.edit"	Value="Edit" />
+  <Item	Name="form.Email"	Value="E-mail" />
+  <Item	Name="form.EmailOK"	Value="Email approved" />
+  <Item	Name="form.enter.phone.details"	Value="Enter phone details" />
+  <Item	Name="form.enter.phone.price"	Value="Enter phone price" />
+  <Item	Name="form.extras"	Value="BROWSE" />
+  <Item	Name="form.FacebookID"	Value="Facebook Ids" />
+  <Item	Name="form.finalprice"	Value="Total" />
+  <Item	Name="form.FinalPrice"	Value="Total" />
+  <Item	Name="form.GatewayBankID"	Value="Bank no" />
+  <Item	Name="form.GSM"	Value="Phone number" />
+  <Item	Name="form.guarantee.status"	Value="Guarantee status" />
+  <Item	Name="form.GuaranteeMonths"	Value="Guarantee time" />
+  <Item	Name="form.HPassword"	Value="Password" />
+  <Item	Name="form.IBAN"	Value="IBAN no" />
+  <Item	Name="form.ImageID"	Value="Image no" />
+  <Item	Name="form.ImagePath"	Value="Image path" />
+  <Item	Name="form.ImageURL"	Value="Image url" />
+  <Item	Name="form.IMEI.status"	Value="Registration status" />
+  <Item	Name="form.Installment"	Value="Installment" />
+  <Item	Name="form.InstallmentEnabled"	Value="Can use installment" />
+  <Item	Name="form.IsDefault"	Value="Default image" />
+  <Item	Name="form.IsFeatured"	Value="Featured" />
+  <Item	Name="form.IsNew"	Value="New" />
+  <Item	Name="form.IsOther"	Value="Other" />
+  <Item	Name="form.IsRegistered"	Value="Registered" />
+  <Item	Name="form.IsRepaired"	Value="Reparied" />
+  <Item	Name="form.IsSellerPaid"	Value="Seller paid" />
+  <Item	Name="form.IsUsed"	Value="Used" />
+  <Item	Name="form.is.phone.guaranteed"	Value="Guarantee?" />
+  <Item	Name="form.is.phone.new"	Value="Is it new?" />
+  <Item	Name="form.is.phone.registered"	Value="Is it registered?" />
+  <Item	Name="form.is.phone.repaired"	Value="Was it repaired?" />
+  <Item	Name="form.Keywords"	Value="Keywords" />
+  <Item	Name="form.Lang"	Value="Language" />
+  <Item	Name="form.LastIP"	Value="Last IP" />
+  <Item	Name="form.LastLogin"	Value="Last login" />
+  <Item	Name="form.LastUpdate"	Value="Last update" />
+  <Item	Name="form.LevelID"	Value="Level" />
+  <Item	Name="form.LogTypeID"	Value="Contact reason" />
+  <Item	Name="form.MarketPrice"	Value="Market price" />
+  <Item	Name="form.MaxPrice"	Value="Max price" />
+  <Item	Name="form.MemberID"	Value="Member no" />
+  <Item	Name="form.MemberName"	Value="Member name" />
+  <Item	Name="form.Message"	Value="Your message" />
+  <Item	Name="form.MessageContent"	Value="Message content" />
+  <Item	Name="form.MinPrice"	Value="Min price" />
+  <Item	Name="form.MName"	Value="Model name" />
+  <Item	Name="form.model.name"	Value="Model" />
+  <Item	Name="form.ModelID"	Value="Model no" />
+  <Item	Name="form.ModelName"	Value="Model" />
+  <Item	Name="form.ModelProperties"	Value="Model properties" />
+  <Item	Name="form.my.account"	Value="MY ACCOUNT" />
+  <Item	Name="form.Name"	Value="Name" />
+  <Item	Name="form.NewPassword"	Value="New password" />
+  <Item	Name="form.nodata"	Value="No such record" />
+  <Item	Name="form.NoteID"	Value="Seller notes" />
+  <Item	Name="form.Notes"	Value="Seller notes" />
+  <Item	Name="form.ObjectID"	Value="Order no" />
+  <Item	Name="form.OldPassword"	Value="Current password" />
+  <Item	Name="form.operations"	Value="Operations" />
+  <Item	Name="form.OptionID"	Value="Option no" />
+  <Item	Name="form.Options"	Value="Options" />
+  <Item	Name="form.OrderID"	Value="Order no" />
+  <Item	Name="form.OrderStatusID"	Value="Order status" />
+  <Item	Name="form.PageKey"	Value="Short name" />
+  <Item	Name="form.PageletID"	Value="Pagelet no" />
+  <Item	Name="form.ParentID"	Value="Root category" />
+  <Item	Name="form.Password"	Value="Password" />
+  <Item	Name="form.Password2"	Value="Password (again)" />
+  <Item	Name="form.PayDate"	Value="Pay date" />
+  <Item	Name="form.payment.options"	Value="PAYMENT OPTIONS" />
+  <Item	Name="form.PaymentDate"	Value="Pay date" />
+  <Item	Name="form.PaymentID"	Value="Payment no" />
+  <Item	Name="form.PaymentSource"	Value="Payment source" />
+  <Item	Name="form.PaymentType"	Value="Payment type" />
+  <Item	Name="form.PaymentTypeID"	Value="Payment type" />
+  <Item	Name="form.PCode"	Value="Product code" />
+  <Item	Name="form.PersonName"	Value="Person name" />
+  <Item	Name="form.Phone"	Value="Phone" />
+  <Item	Name="form.phone.accessories"	Value="Accessories" />
+  <Item	Name="form.phone.note.title"	Value="Additional notes you thing the buyer needs to know:" />
+  <Item	Name="form.phone.status"	Value="Phone status" />
+  <Item	Name="form.pick.brand"	Value="Pick brand" />
+  <Item	Name="form.pick.model"	Value="Pick model" />
+  <Item	Name="form.PName"	Value="Product name" />
+  <Item	Name="form.preview"	Value="Preview" />
+  <Item	Name="form.Price"	Value="Price" />
+  <Item	Name="form.PriceID"	Value="Price no" />
+  <Item	Name="form.ProductID"	Value="Product no" />
+  <Item	Name="form.PropertyDesc"	Value="Property name" />
+  <Item	Name="form.PropertyID"	Value="Property no" />
+  <Item	Name="form.ProvisionCode"	Value="Provision code" />
+  <Item	Name="form.QAConditions"	Value="Return / Guarantee terms" />
+  <Item	Name="form.Quantity"	Value="Quantity" />
+  <Item	Name="form.Rate"	Value="Rate" />
+  <Item	Name="form.RateID"	Value="Rate no" />
+  <Item	Name="form.Received"	Value="Received" />
+  <Item	Name="form.RefMemberID"	Value="Referer no" />
+  <Item	Name="form.RefNo"	Value="Ref no" />
+  <Item	Name="form.remember.me"	Value="Remember me" />
+  <Item	Name="form.repair.status"	Value="Repair status" />
+  <Item	Name="form.report"	Value="Report" />
+  <Item	Name="form.Reputation"	Value="Reputation" />
+  <Item	Name="form.ResDescription"	Value="Description key" />
+  <Item	Name="form.ReservedCount"	Value="Reserved count" />
+  <Item	Name="form.ResHelp"	Value="Help key" />
+  <Item	Name="form.ResText1"	Value="Text 1" />
+  <Item	Name="form.ResText2"	Value="Text 2" />
+  <Item	Name="form.RightContent"	Value="Right content" />
+  <Item	Name="form.RootName"	Value="Root category" />
+  <Item	Name="form.same.addresses"	Value="My delivery and billing addresses are same" />
+  <Item	Name="form.ScratchID"	Value="Scratch status" />
+  <Item	Name="form.sell.your.phone"	Value="Sell your phone" />
+  <Item	Name="form.SellDate"	Value="Sell date" />
+  <Item	Name="form.SellPrice"	Value="Sell price" />
+  <Item	Name="form.SendMail"	Value="Send email and notifications too" />
+  <Item	Name="form.serial.name"	Value="Serial name" />
+  <Item	Name="form.serial.picture"	Value="Serial picture" />
+  <Item	Name="form.serial.sold"	Value="Congratulations, your device has been sold!&lt;br&gt;Please let us know your device's status:" />
+  <Item	Name="form.SerialID"	Value="Serial no" />
+  <Item	Name="form.SerialTitle"	Value="Serial Title" />
+  <Item	Name="form.share.format"	Value="{0} views, {1} favorites" />
+  <Item	Name="form.ShowInMainPage"	Value="Show in main page" />
+  <Item	Name="form.SLogo"	Value="Small logo" />
+  <Item	Name="form.social"	Value="STAY IN TOUCH" />
+  <Item	Name="form.Sold"	Value="Sold?" />
+  <Item	Name="form.SoldCount"	Value="Sold count" />
+  <Item	Name="form.SortOrder"	Value="Sort order" />
+  <Item	Name="form.SourceID"	Value="Source" />
+  <Item	Name="form.Status"	Value="Status" />
+  <Item	Name="form.StockAlarm"	Value="Stock alarm" />
+  <Item	Name="form.StockAvailable"	Value="Stock avaible" />
+  <Item	Name="form.StockCount"	Value="Stock count" />
+  <Item	Name="form.SubcategoryID"	Value="Sub category" />
+  <Item	Name="form.subtotal"	Value="Sub total" />
+  <Item	Name="form.SumAccessory"	Value="Accessories" />
+  <Item	Name="form.SumCondition"	Value="Condition" />
+  <Item	Name="form.support"	Value="SUPPORT" />
+  <Item	Name="form.Surname"	Value="Last name" />
+  <Item	Name="form.TaxAmount"	Value="Tax amount" />
+  <Item	Name="form.TaxRate"	Value="Tax rate" />
+  <Item	Name="form.Title"	Value="Title" />
+  <Item	Name="form.TotalPrice"	Value="Total price" />
+  <Item	Name="form.URL"	Value="URL" />
+  <Item	Name="form.Username"	Value="Username" />
+  <Item	Name="form.Verified"	Value="Verified" />
+  <Item	Name="form.ZipCode"	Value="Zip code" />
+  <Item	Name="format.Add"	Value="Add {0}" />
+  <Item	Name="format.Detail"	Value="{0} Detail" />
+  <Item	Name="format.Edit"	Value="Edit {0}" />
+  <Item	Name="format.inbox.header"	Value="{0} unread" />
+  <Item	Name="format.List"	Value="{0} List" />
+  <Item	Name="format.New"	Value="New {0}" />
+  <Item	Name="format.product.title"	Value="{0} for sale in Meramobile.com" />
+  <Item	Name="format.search.title"	Value="Meramobile.com offers new and used {0} products." />
+  <Item	Name="format.serial.title"	Value="{0} for sale in Meramobile.com" />
+  <Item	Name="header.cod"	Value="No cargo fees&lt;br /&gt;for the seller" />
+  <Item	Name="header.contact"	Value="Contact us at&lt;br /&gt;(0212) 274 57 11" />
+  <Item	Name="header.pickup"	Value="Received from&lt;br /&gt;your location" />
+  <Item	Name="help"	Value="Help" />
+  <Item	Name="hlp_capacity"	Value="Capacity" />
+  <Item	Name="hlp_color"	Value="Color" />
+  <Item	Name="home"	Value="Mainpage" />
+  <Item	Name="kapat"	Value="Close" />
+  <Item	Name="max.choose.items"	Value="{0} items at most." />
+  <Item	Name="member.activation.subject"	Value="Your activation code" />
+  <Item	Name="message.successful"	Value="We received your message. Thank you for the interest." />
+  <Item	Name="month1"	Value="January" />
+  <Item	Name="month10"	Value="October" />
+  <Item	Name="month11"	Value="November" />
+  <Item	Name="month12"	Value="December" />
+  <Item	Name="month2"	Value="February" />
+  <Item	Name="month3"	Value="March" />
+  <Item	Name="month4"	Value="April" />
+  <Item	Name="month5"	Value="May" />
+  <Item	Name="month6"	Value="June" />
+  <Item	Name="month7"	Value="July" />
+  <Item	Name="month8"	Value="August" />
+  <Item	Name="month9"	Value="September" />
+  <Item	Name="nav.add"	Value="Add" />
+  <Item Name="nav.reactivate" Value="Resend code" />
+  <Item	Name="nav.add.all"	Value="Add all »" />
+  <Item	Name="nav.add.basket"	Value="Add to basket" />
+  <Item	Name="nav.add.continue"	Value="Add and continue" />
+  <Item	Name="nav.add.new"	Value="Add new" />
+  <Item	Name="nav.add.selected"	Value="Add selected »" />
+  <Item	Name="nav.add+"	Value="Add »" />
+  <Item	Name="nav.all"	Value="All" />
+  <Item	Name="nav.apply"	Value="Apply" />
+  <Item	Name="nav.approve"	Value="Approve and save" />
+  <Item	Name="nav.back"	Value="Back" />
+  <Item	Name="nav.back.to.list"	Value="Back to list" />
+  <Item	Name="nav.buy"	Value="Buy" />
+  <Item	Name="nav.buy.now"	Value="Buy now" />
+  <Item	Name="nav.cancel"	Value="Cancel" />
+  <Item	Name="nav.check"	Value="Check" />
+  <Item	Name="nav.checkout"	Value="Check out" />
+  <Item	Name="nav.choose.address"	Value="Choose address" />
+  <Item	Name="nav.choose.all"	Value="Choose all" />
+  <Item	Name="nav.clear"	Value="Clear" />
+  <Item	Name="nav.confirm"	Value="Are you sure?" />
+  <Item	Name="nav.confirm.order"	Value="Confirm" />
+  <Item	Name="nav.connect"	Value="Connect" />
+  <Item	Name="nav.continue.shopping"	Value="Continue shopping" />
+  <Item	Name="nav.copy"	Value="Copy" />
+  <Item	Name="nav.delete"	Value="Delete" />
+  <Item	Name="nav.delete.selected"	Value="Delete selected" />
+  <Item	Name="nav.detail"	Value="Details" />
+  <Item	Name="nav.disabled"	Value="Disabled" />
+  <Item	Name="nav.edit"	Value="Edit" />
+  <Item	Name="nav.enabled"	Value="Enabled" />
+  <Item	Name="nav.forgot.password"	Value="Forgot password" />
+  <Item	Name="nav.generate"	Value="Generate" />
+  <Item	Name="nav.login"	Value="Login" />
+  <Item	Name="nav.logout"	Value="Logout" />
+  <Item	Name="nav.mark.read"	Value="Mark as read" />
+  <Item	Name="nav.mark.unread"	Value="Mark as unread" />
+  <Item	Name="nav.new"	Value="New" />
+  <Item	Name="nav.next"	Value="Next »" />
+  <Item	Name="nav.next.month"	Value="Next month »" />
+  <Item	Name="nav.ok"	Value="Save" />
+  <Item	Name="nav.ok.continue"	Value="Save and add new" />
+  <Item	Name="nav.okay"	Value="Okay" />
+  <Item	Name="nav.payment.type"	Value="Payment type" />
+  <Item	Name="nav.previous"	Value="« Back" />
+  <Item	Name="nav.previous.month"	Value="« Previous month" />
+  <Item	Name="nav.profile"	Value="My Profile" />
+  <Item	Name="nav.refresh"	Value="Refresh" />
+  <Item	Name="nav.register"	Value="Register" />
+  <Item	Name="nav.remind"	Value="Remind" />
+  <Item	Name="nav.remove"	Value="« Remove" />
+  <Item	Name="nav.remove.all"	Value="« Remove all" />
+  <Item	Name="nav.remove.selected"	Value="« Remove selected" />
+  <Item	Name="nav.report"	Value="Report" />
+  <Item	Name="nav.reset"	Value="Reset form" />
+  <Item	Name="nav.save"	Value="Save" />
+  <Item	Name="nav.search"	Value="Search" />
+  <Item	Name="nav.sell"	Value="Sell" />
+  <Item	Name="nav.send"	Value="Send" />
+  <Item	Name="nav.serial"	Value="Serial" />
+  <Item	Name="nav.settings"	Value="Settings" />
+  <Item	Name="nav.undo"	Value="Undo" />
+  <Item	Name="new"	Value="New" />
+  <Item	Name="new.member.subject"	Value="Welcome to Meramobile.com" />
+  <Item	Name="new.message"	Value="Send message" />
+  <Item	Name="new.serial.subject"	Value="Your serial ({0}) was saved." />
+  <Item	Name="no"	Value="No" />
+  <Item	Name="no.unread.messages"	Value="No unread messages" />
+  <Item	Name="ok.changes.saved"	Value="Saved changes." />
+  <Item	Name="ok.save"	Value="Saved." />
+  <Item	Name="ok.send.email"	Value="Email sent." />
+  <Item	Name="op.add.ok"	Value="Added." />
+  <Item	Name="op.delete.ok"	Value="Deleted." />
+  <Item	Name="op.result.exception"	Value="An error occurred while uploading: File size too big." />
+  <Item	Name="op.result.file.without.extension"	Value="Files without an extension is not allowed." />
+  <Item	Name="op.result.invalid.extension"	Value="Invalid extension\n\n(Valid extensions are: {0})" />
+  <Item	Name="op.result.large.file"	Value="File size too big.\n\n(Max: {0} bytes)" />
+  <Item	Name="op.result.nofile"	Value="Please choose a file." />
+  <Item	Name="op.result.OK"	Value="File uploaded" />
+  <Item	Name="op.update.ok"	Value="Updated" />
+  <Item	Name="order.agreement"	Value="I have read and approve the agreements." />
+  <Item	Name="order.cargo.delivered"	Value="Your purchase was certified and delivered to the cargo company." />
+  <Item	Name="order-completed-subject"	Value="Your order details" />
+  <Item	Name="Other"	Value="Other" />
+  <Item	Name="pager.next"	Value="→" />
+  <Item	Name="pager.prev"	Value="←" />
+  <Item	Name="password.not.sent"	Value="Your password was NOT sent. Please make sure your email address is correct." />
+  <Item	Name="password.reminder.subject"	Value="Account info" />
+  <Item	Name="password.sent"	Value="Your login details was sent to your email address" />
+  <Item	Name="ph.IBAN"	Value="AAXX XXXX XXXX XXXX XXXX XXXX XX" />
+  <Item	Name="pick.address"	Value="Pick address" />
+  <Item	Name="pick.bank"	Value="Pick bank" />
+  <Item	Name="pick.bankaccount"	Value="Pick bank account" />
+  <Item	Name="pick.bill.address"	Value="Pick billing address" />
+  <Item	Name="pick.brand.first"	Value="Pick brand first" />
+  <Item	Name="pick.delivery.address"	Value="Pick delivery address" />
+  <Item	Name="pick.year"	Value="Year" />
+  <Item	Name="placeholder.buy"	Value="What do you want to BUY?" />
+  <Item	Name="placeholder.sell"	Value="What do you want to SELL?" />
+  
+  <Item Name="pro-renk-siyah-beyaz" Value="Color:" />
+  <Item Name="pro-renk-yesil-beyaz-sari-mavi-pembe" Value="Color:" />
+  <Item Name="pro-renk-gumus-gri-altin" Value="Color:" />
+  <Item Name="pro-renk-siyah-beyaz-mavi" Value="Color:" />
+  <Item Name="pro-renk-siyah-beyaz-pembe" Value="Color:" />
+  <Item Name="pro-renk-siyah-beyaz-sari" Value="Color:" />
+  <Item Name="pro-kapasite-8-16" Value="Memory capacity:" />
+  <Item Name="pro-kapasite-8-16-32" Value="Memory capacity:" />
+  <Item Name="pro-kapasite-16-32-64" Value="Memory capacity:" />
+  <Item Name="pro-kapasite-8-16-32-64" Value="Memory capacity:" />
+  <Item Name="pro-kapasite-16-32" Value="Memory capacity:" />
+  <Item	Name="req"	Value="Required field" />
+  <Item	Name="req.AccountCode"	Value="Account code required" />
+  <Item	Name="req.AccountOwner"	Value="Account owner required" />
+  <Item	Name="req.Address"	Value="Address required" />
+  <Item	Name="req.Address1"	Value="Address required" />
+  <Item	Name="req.BankAccount"	Value="Bank account required" />
+  <Item	Name="req.BankID"	Value="Bank required" />
+  <Item	Name="req.BrandID"	Value="Brand required" />
+  <Item	Name="req.BuyPrice"	Value="Buy price required" />
+  <Item	Name="req.CargoPrice"	Value="Cargo price required" />
+  <Item	Name="req.CargoStat"	Value="Device status required" />
+  <Item	Name="req.CategoryID"	Value="Category required" />
+  <Item	Name="req.CharityName"	Value="Charity organization required" />
+  <Item	Name="req.CityID"	Value="City required" />
+  <Item	Name="req.DepartmentCode"	Value="Department code required" />
+  <Item	Name="req.Description"	Value="Description required" />
+  <Item	Name="req.District"	Value="District required" />
+  <Item	Name="req.Email"	Value="Email required" />
+  <Item	Name="req.GSM"	Value="Phone number required" />
+  <Item	Name="req.GuaranteeMonths"	Value="Guarantee (months) required" />
+  <Item	Name="req.IBAN"	Value="IBAN required" />
+  <Item	Name="req.LogTypeID"	Value="Contact reason required" />
+  <Item	Name="req.MarketPrice"	Value="Market price required" />
+  <Item	Name="req.Message"	Value="Message required" />
+  <Item	Name="req.Name"	Value="Name required" />
+  <Item	Name="req.OldPassword"	Value="Current password required" />
+  <Item	Name="req.Password"	Value="Password required" />
+  <Item	Name="req.Password2"	Value="Password (again) required" />
+  <Item	Name="req.PersonName"	Value="Person name required" />
+  <Item	Name="req.PName"	Value="Product name required" />
+  <Item	Name="req.same.password"	Value="Enter the same password" />
+  <Item	Name="req.SellPrice"	Value="Sell price required" />
+  <Item	Name="req.StockCount"	Value="Stock  required" />
+  <Item	Name="req.SubcategoryID"	Value="Sub category required" />
+  <Item	Name="req.Surname"	Value="Surname required" />
+  <Item	Name="req.TaxRate"	Value="Tax rate required" />
+  <Item	Name="req.ZipCode"	Value="Zipcode required" />
+  <Item	Name="rev.GSM"	Value="GSM number in 10 digits required" />
+  <Item	Name="search.results"	Value="{0} records found. Showing page {1}." />
+  <Item	Name="seciniz"	Value="Choose..." />
+  <Item	Name="see.all.messages"	Value="See all messages." />
+  <Item	Name="seller.cargo.key.subject"	Value="Cargo status for your serial {0}" />
+  <Item	Name="seller.item.availibility.subject"	Value="Your serial {0} was sold." />
+  <Item	Name="serial.approval.not.ok"	Value="Your serial was not approved." />
+  <Item	Name="serial.approval.ok"	Value="Your serial was approved." />
+  <Item	Name="serial.cargo.ok.formatter"	Value="Your serial's new cargo status was updated to {0}." />
+  <Item	Name="serial.payment.not.ok"	Value="Serial payment not OK." />
+  <Item	Name="serial.payment.ok.formatter"	Value="Your serial payment was sent at {0}." />
+  <Item	Name="serial.received.not.ok"	Value="Your device was not received by Meramobile center." />
+  <Item	Name="serial.received.ok.formatter"	Value="Your device was received by Meramobile at {0}." />
+  <Item	Name="serial.sold.agreement.title"	Value="Please print, sign and include the following text along with your device to the Cargo company." />
+  <Item	Name="serial.status.change.approval"	Value="Serial Approval status" />
+  <Item	Name="serial.status.change.cargostatuschange"	Value="Cargo status change" />
+  <Item	Name="serial.status.change.payment"	Value="Cargo payment status" />
+  <Item	Name="serial.status.change.received"	Value="Cargo Receipt change" />
+  <Item	Name="starting.from"	Value="Starting from&lt;br /&gt;{0} USD" />
+  <Item	Name="subject.activation.code"	Value="Your activation code" />
+  <Item	Name="subject.password.reminder"	Value="Password reminder" />
+  <Item	Name="success.cargo.status"	Value="Changes saved. We will send you an email about your free Cargo Code." />
+  <Item	Name="success.saving.serial"	Value="Your serial was saved. It will be activated upon approval." />
+  <Item	Name="title.account"	Value="My account" />
+  <Item	Name="title.add.address"	Value="Add address" />
+  <Item	Name="title.Address"	Value="Address" />
+  <Item	Name="title.address"	Value="My addresses" />
+  <Item	Name="title.address.detail"	Value="Address detail" />
+  <Item	Name="title.BankAccount"	Value="Bank account no" />
+  <Item	Name="title.bankaccounts"	Value="My bank accounts" />
+  <Item	Name="title.buy.now"	Value="Buy now!" />
+  <Item	Name="title.cargostuff"	Value="Cargo details" />
+  <Item	Name="title.cart"	Value="My cart" />
+  <Item	Name="title.checkout"	Value="Choose addresses" />
+  <Item	Name="title.edit.address"	Value="Edit address" />
+  <Item	Name="title.edit.bankaccount"	Value="Edit bank account" />
+  <Item	Name="title.featured.products"	Value="Featured items" />
+  <Item	Name="title.how.much"	Value="How much do you want for your device?" />
+  <Item	Name="title.inbox"	Value="Inbox" />
+  <Item	Name="title.login"	Value="Login" />
+  <Item	Name="title.market.price"	Value="Market price" />
+  <Item	Name="title.max.price"	Value="Sells slower" />
+  <Item	Name="title.Message"	Value="Message" />
+  <Item	Name="title.min.price"	Value="Sells faster" />
+  <Item	Name="title.new.bankaccount"	Value="Add account" />
+  <Item	Name="title.order.complete"	Value="Order completed" />
+  <Item	Name="title.order.detail"	Value="Order details" />
+  <Item	Name="title.orders"	Value="My orders" />
+  <Item	Name="title.payment"	Value="Payment" />
+  <Item	Name="title.price.footer"	Value="We recommend the market price for faster sells." />
+  <Item	Name="title.register"	Value="Register" />
+  <Item	Name="title.related.products"	Value="Compatible / Related Products" />
+  <Item	Name="title.search.phone"	Value="Search devices" />
+  <Item	Name="title.search.results"	Value="Search Results" />
+  <Item	Name="title.serial.detail"	Value="Serial Detail" />
+  <Item	Name="title.serials"	Value="My Serials" />
+  <Item	Name="title.transactions"	Value="Transaction history" />
+  <Item	Name="title.wellcome"	Value="Welcome" />
+  <Item	Name="title.your.gain"	Value="Your gain:" />
+  <Item	Name="tooltip.guarantee.months"	Value="Guarantee duration (months):" />
+  <Item	Name="tooltip.seller.note"	Value="Does your device work? Did it have any water damage? Does it have any accessories not listed above?" />
+  <Item	Name="ui.gridview.nodata"	Value="&lt;div class='GridNoData alert alert-error'&gt;&lt;div&gt;No matching records.&lt;/div&gt;&lt;/div&gt;" />
+  <Item	Name="ui.gridview.pagertext"	Value="&lt;div class='GridPagerText'&gt;&lt;div&gt;&lt;b&gt;{0}&lt;/b&gt; records. Page &lt;b&gt;{2}&lt;/b&gt; of &lt;b&gt;{1}&lt;/b&gt;.&lt;/div&gt;&lt;/div&gt;" />
+  <Item	Name="upload.browse"	Value="Browse" />
+  <Item	Name="upload.change"	Value="Change" />
+  <Item	Name="upload.remove"	Value="Remove file" />
+  <Item	Name="upload.upload"	Value="Upload" />
+  <Item	Name="yes"	Value="Yes" />
+
+  <Item Name="title.location" Value="Location" />
+  <Item Name="title.call" Value="Call Us" />
+  <Item Name="title.mailus" Value="Mail Us" />
+  <Item Name="title.about" Value="about us" />
+  <Item Name="title.partners" Value="partners" />
+  <Item Name="title.blog" Value="blog" />
+  <Item Name="title.all" Value="All" />
+  <Item Name="title.name" Value="Name *" />
+  <Item Name="title.email" Value="Email *" />
+  <Item Name="title.phone" Value="Phone" />
+  <Item Name="title.comment" Value="Comment" />
+  <Item Name="title.send" Value="Send Message" />
+  <Item Name="mail.ok" Value="Email sended successfully." />
+  <Item Name="mail.error" Value="Email is not sended, please try again later." />
+  <Item Name="title.portfolio" Value="portfolio" />
+
+  <Item Name="title.underc" Value="under construction..." />
+  <Item Name="button.home" Value="take me home" />
+</Items>

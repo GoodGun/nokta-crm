@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lists>
+  <List Key="BoolSelector">
+    <Item Name="No selection" Value="-1" />
+    <Item Name="Yes" Value="1" />
+    <Item Name="No" Value="0" />
+  </List>
+  <List Key="ContactReasons">
+    <Item Value="1" Name="Suggestion" />
+    <Item Value="2" Name="Request" />
+    <Item Value="3" Name="Complaint" />
+    <Item Value="4" Name="Advertisement" />
+    <Item Value="5" Name="Thanks" />
+    <Item Value="6" Name="Help" />
+    <Item Value="7" Name="Return" />
+  </List>
+  <List Key="CargoStatuses">
+    <Item Value="0" Name="New Order" />
+    <Item Value="1" Name="Seller quit" />
+    <Item Value="2" Name="Waiting cargo from seller" />
+    <Item Value="3" Name="Being certificated" />
+    <Item Value="4" Name="On the way to buyer" />
+    <Item Value="5" Name="Delivered" />
+    <Item Value="6" Name="Not set" />
+  </List>
+  <List Key="SellerCargoOptions">
+    <Item Value="1" Name="I'll send in the original box" />
+    <Item Value="2" Name="I want the Cargo Kit (10 USD)" />
+    <Item Value="3" Name="I don't want any cargo warranties" />
+  </List>
+  <List Key="SerialCargoAvailability">
+    <Item Value="2" Name="Telefon elimde, kargoya verebilirim." />
+    <Item Value="1" Name="Telefonu Cepstop.com dışında sattım, ya da satmaktan vazgeçtim." />
+  </List>
+  <List Key="SoldTypes">
+    <Item Value="0" Name="Stokta olanlar" />
+    <Item Value="1" Name="Tüm ilanlar" />
+  </List>
+  <List Key="OrderStatuses">
+    <Item Value="1" Name="Yeni sipariş" />
+    <Item Value="2" Name="Tedarik edilemiyor" />
+    <Item Value="3" Name="İptal edildi" />
+    <Item Value="4" Name="Kargolandı" />
+    <Item Value="5" Name="Teslim edildi" />
+    <Item Value="6" Name="" />
+    <Item Value="7" Name="" />
+    <Item Value="8" Name="" />
+  </List>
+  <List Key="WantInstallment">
+    <Item Value="0" Name="Taksit istemiyorum" />
+    <Item Value="1" Name="Taksit seçeneklerini gör" />
+  </List>
+  <List Key="ExpireMonths">
+    <Item Value="" Name="Ay" />
+    <Item Value="1" Name="01" />
+    <Item Value="2" Name="02" />
+    <Item Value="3" Name="03" />
+    <Item Value="4" Name="04" />
+    <Item Value="5" Name="05" />
+    <Item Value="6" Name="06" />
+    <Item Value="7" Name="07" />
+    <Item Value="8" Name="08" />
+    <Item Value="9" Name="09" />
+    <Item Value="10" Name="10" />
+    <Item Value="11" Name="11" />
+    <Item Value="12" Name="12" />
+  </List>
+  <List Key="OrderBy">
+    <Item Value="1" Name="Fiyat - artan" />
+    <Item Value="2" Name="Fiyat - azalan" />
+    <Item Value="3" Name="İlan Tarihi (yeni üstte)" />
+    <Item Value="4" Name="İlan Tarihi (yeni altta)" />
+  </List>
+  <List Key="PaymentTypes">
+    <Item Value="1" Name="Banka Transferi" />
+    <Item Value="2" Name="Bağışta bulun" />
+  </List>
+  <List Key="BuyPaymentTypes">
+    <Item Value="1" Name="Kredi kartı" />
+  </List>
+  <List Key="IBANTypes">
+    <Item Value="1" Name="IBAN no ile oluştur" />
+    <Item Value="0" Name="Hesap no ile oluştur" />
+  </List>
+  <List Key="GuaranteeMonths">
+    <Item Value="1" Name="Var, {0} ay" />
+    <Item Value="0" Name="Yok" />
+  </List>
+  <List Key="HasOrNot">
+    <Item Value="1" Name="Var" />
+    <Item Value="0" Name="Yok" />
+  </List>
+  <List Key="UseTypes">
+    <Item Value="1" Name="Kullanılmış" />
+    <Item Value="0" Name="Yeni" />
+  </List>
+  <List Key="RepairTypes">
+    <Item Value="1" Name="Tamir gördü" />
+    <Item Value="0" Name="Tamir görmedi" />
+  </List>
+  <List Key="PriceRanges">
+    <Item Value="1" Name="1 - 100" />
+    <Item Value="2" Name="100 - 200" />
+    <Item Value="3" Name="200 - 300" />
+    <Item Value="4" Name="300 - 400" />
+    <Item Value="5" Name="400 - 500" />
+    <Item Value="6" Name="500 - 750" />
+    <Item Value="7" Name="750 - 1000" />
+    <Item Value="8" Name="1000+" />
+  </List>
+  <List Key="Accessories">
+    <Item Name="Orijinal kutu" Value="1" />
+    <Item Name="USB / Şarj" Value="2" />
+    <Item Name="Veri kablosu" Value="4" />
+    <Item Name="Kulaklık" Value="8" />
+    <Item Name="Ekran koruyucu" Value="16" />
+    <Item Name="Kılıf" Value="32" />
+  </List>
+  <List Key="ScratchCounts">
+    <Item Name="Hiç çiziği yok" Value="1" />
+    <Item Name="Çok az" Value="2" />
+    <Item Name="Orta sayıda" Value="3" />
+    <Item Name="Çok çiziği var" Value="4" />
+  </List>
+  <List Key="Langs">
+    <Item Name="Türkçe" Value="TR" />
+    <Item Name="İngilizce" Value="EN" />
+  </List>
+  <List Key="Days">
+    <Item Name="Pazartesi" Value="1" />
+    <Item Name="Salı" Value="2" />
+    <Item Name="Çarşamba" Value="3" />
+    <Item Name="Perşembe" Value="4" />
+    <Item Name="Cuma" Value="5" />
+    <Item Name="Cumartesi" Value="6" />
+    <Item Name="Pazar" Value="7" />
+  </List>
+  <List Key="Banks">
+    <Item Value="1" Name="Adabank" />
+    <Item Value="2" Name="Akbank" />
+    <Item Value="3" Name="Aktif Yatırım Bankası" />
+    <Item Value="4" Name="Albaraka Türk Katılım Bankası" />
+    <Item Value="5" Name="Alternatifbank" />
+    <Item Value="6" Name="Anadolubank" />
+    <Item Value="7" Name="Arap türk Bankası" />
+    <Item Value="8" Name="Asya Katılım Bankası" />
+    <Item Value="9" Name="Bankpozitif" />
+    <Item Value="10" Name="Birleşik Fon Bankası" />
+    <Item Value="11" Name="Burgan Bank" />
+    <Item Value="12" Name="Citibank" />
+    <Item Value="41" Name="Cumhuriyet Merkez Bankası" />
+    <Item Value="13" Name="Denizbank" />
+    <Item Value="14" Name="Deutsche Bank" />
+    <Item Value="15" Name="Diler Yatırım Bankası" />
+    <Item Value="16" Name="Fibabanka" />
+    <Item Value="17" Name="Finans Bank" />
+    <Item Value="42" Name="Finans Katılım Bankası" />
+    <Item Value="40" Name="Garanti Bankası" />
+    <Item Value="18" Name="Gsd Yatırım Bankası" />
+    <Item Value="43" Name="Halk Bankası" />
+    <Item Value="19" Name="Hsbc bank" />
+    <Item Value="20" Name="ING Bank" />
+    <Item Value="21" Name="İller Bankası" />
+    <Item Value="22" Name="İstanbul Takas ve Saklama Bankası" />
+    <Item Value="44" Name="İş Bankası" />
+    <Item Value="23" Name="JPMorgan Chase Bank, N.A." />
+    <Item Value="45" Name="Kalkınma Bankası" />
+    <Item Value="24" Name="Kuveyt Türk Katılım Bankası" />
+    <Item Value="25" Name="Merrill Lynch Yatırım Bank" />
+    <Item Value="26" Name="Nurol Yatırım Bankası" />
+    <Item Value="27" Name="Odea Bank" />
+    <Item Value="28" Name="Portigon AG" />
+    <Item Value="46" Name="Sınai Kalkınma Bankası" />
+    <Item Value="29" Name="Societe Generale" />
+    <Item Value="30" Name="Standard Chartered Yatırım Bankası" />
+    <Item Value="31" Name="Şekerbank" />
+    <Item Value="32" Name="Taib Yatırım Bank" />
+    <Item Value="33" Name="Tekstil Bankası" />
+    <Item Value="34" Name="The Royal Bank of Scotland PLC" />
+    <Item Value="35" Name="Turkish Bank" />
+    <Item Value="36" Name="Turkland Bank" />
+    <Item Value="37" Name="Türk Ekonomi Bankası" />
+    <Item Value="38" Name="Türk Eximbank" />
+    <Item Value="47" Name="Vakıflar Bankası" />
+    <Item Value="48" Name="Yapı ve Kredi Bankası" />
+    <Item Value="39" Name="Ziraat Bankası" />
+  </List>
+  <List Key="AndOr">
+    <Item Name="VE        " Value="AND" />
+    <Item Name="VEYA      " Value="OR" />
+  </List>
+  <List Key="DeviceTypes">
+    <Item Value="1" Name="Telefon" />
+    <Item Value="2" Name="Tablet" />
+    <Item Value="3" Name="Bilgisayar" />
+  </List>
+  <List Key="CountryTypes">
+    <Item Name="Türkiye" Value="1"/>
+    <Item Name="Yurtdışı" Value="2"/>
+  </List>
+  <List Key="Sex">
+    <Item Name="Choose..."  Value=""/>
+    <Item Name="Erkek"  Value="0"/>
+    <Item Name="Kadın"  Value="1"/>
+  </List>
+  <List Key="Status">
+    <Item Name="Aktif"  Value="1" />
+    <Item Name="Pasif"  Value="0" />
+  </List>
+  <List Key="Approved">
+    <Item Name="Onaylanmış"  Value="1" />
+    <Item Name="Onay bekliyor"  Value="0"/>
+  </List>
+  <List Key="Countries">
+    <Item Value="500" Name="Türkiye" />
+    <Item Value="3" Name="Afganistan" />
+    <Item Value="54" Name="Almanya" />
+    <Item Value="219" Name="Amerika Birleşik Devletleri" />
+    <Item Value="1" Name="Andorra" />
+    <Item Value="9" Name="Angola" />
+    <Item Value="10" Name="Antarktika" />
+    <Item Value="11" Name="Arjantin" />
+    <Item Value="6" Name="Arnavutluk" />
+    <Item Value="15" Name="Aruba" />
+    <Item Value="14" Name="Avustralya" />
+    <Item Value="13" Name="Avusturya" />
+    <Item Value="16" Name="Azerbaycan" />
+    <Item Value="30" Name="Bahama" />
+    <Item Value="23" Name="Bahreyn" />
+    <Item Value="19" Name="Bangladeş" />
+    <Item Value="18" Name="Barbados" />
+    <Item Value="63" Name="Batı Sahra" />
+    <Item Value="20" Name="Belçika" />
+    <Item Value="35" Name="Belize" />
+    <Item Value="26" Name="Bermuda" />
+    <Item Value="34" Name="Beyaz Rusya (Belarus)" />
+    <Item Value="2" Name="Birleşik Arap Emirlikleri" />
+    <Item Value="28" Name="Bolivya" />
+    <Item Value="17" Name="Bosna Hersek" />
+    <Item Value="29" Name="Brezilya" />
+    <Item Value="27" Name="Brunei Darüsselam" />
+    <Item Value="22" Name="Bulgaristan" />
+    <Item Value="24" Name="Burundi" />
+    <Item Value="74" Name="Büyük Britanya (uk)" />
+    <Item Value="79" Name="Cebelitarık" />
+    <Item Value="59" Name="Cezayir" />
+    <Item Value="51" Name="Christmas Adası" />
+    <Item Value="55" Name="Cibuti" />
+    <Item Value="43" Name="Cook Adası" />
+    <Item Value="202" Name="Çad" />
+    <Item Value="53" Name="Çek Cumhuriyeti" />
+    <Item Value="46" Name="Çin" />
+    <Item Value="56" Name="Danimarka" />
+    <Item Value="58" Name="Dominik Cumhuriyet" />
+    <Item Value="60" Name="Ekvador" />
+    <Item Value="84" Name="Ekvator Ginesi" />
+    <Item Value="198" Name="El Salvador" />
+    <Item Value="97" Name="Endonezya" />
+    <Item Value="64" Name="Eritre" />
+    <Item Value="7" Name="Ermenistan" />
+    <Item Value="61" Name="Estonya" />
+    <Item Value="66" Name="Etiyopya" />
+    <Item Value="131" Name="Fas" />
+    <Item Value="42" Name="Fildişi Kıyısı" />
+    <Item Value="169" Name="Filipinler" />
+    <Item Value="67" Name="Finlandiya" />
+    <Item Value="72" Name="Fransa" />
+    <Item Value="73" Name="Gabon" />
+    <Item Value="81" Name="Gambiya" />
+    <Item Value="78" Name="Gana" />
+    <Item Value="82" Name="Gine" />
+    <Item Value="75" Name="Grenada" />
+    <Item Value="80" Name="Grönland" />
+    <Item Value="88" Name="Guam" />
+    <Item Value="87" Name="Guatemala" />
+    <Item Value="90" Name="Guyana" />
+    <Item Value="233" Name="Güney Afrika" />
+    <Item Value="115" Name="Güney Kore" />
+    <Item Value="76" Name="Gürcistan" />
+    <Item Value="95" Name="Haiti" />
+    <Item Value="94" Name="Hırvatistan" />
+    <Item Value="100" Name="Hindistan" />
+    <Item Value="8" Name="Hollanda" />
+    <Item Value="93" Name="Honduras" />
+    <Item Value="91" Name="Hong kong" />
+    <Item Value="102" Name="Irak" />
+    <Item Value="103" Name="İran" />
+    <Item Value="98" Name="İrlanda" />
+    <Item Value="65" Name="İspanya" />
+    <Item Value="99" Name="İsrail" />
+    <Item Value="186" Name="İsveç" />
+    <Item Value="41" Name="İsviçre" />
+    <Item Value="105" Name="İtalya" />
+    <Item Value="104" Name="İzlanda" />
+    <Item Value="106" Name="Jamaika" />
+    <Item Value="108" Name="Japonya" />
+    <Item Value="111" Name="Kamboçya" />
+    <Item Value="45" Name="Kamerun" />
+    <Item Value="36" Name="Kanada" />
+    <Item Value="177" Name="Katar" />
+    <Item Value="118" Name="Kayman Adası" />
+    <Item Value="119" Name="Kazakistan" />
+    <Item Value="109" Name="Kenya" />
+    <Item Value="52" Name="Kıbrıs" />
+    <Item Value="110" Name="Kırgızistan" />
+    <Item Value="112" Name="Kiribati" />
+    <Item Value="47" Name="Kolombiya" />
+    <Item Value="113" Name="Komorlar" />
+    <Item Value="38" Name="Kongo" />
+    <Item Value="48" Name="Kosta Rika" />
+    <Item Value="117" Name="Kuveyt" />
+    <Item Value="116" Name="Kuzey Kore" />
+    <Item Value="49" Name="Küba" />
+    <Item Value="120" Name="Laos" />
+    <Item Value="129" Name="Letonya" />
+    <Item Value="125" Name="Liberya" />
+    <Item Value="130" Name="Libya" />
+    <Item Value="123" Name="Lihtenştayn" />
+    <Item Value="127" Name="Litvanya" />
+    <Item Value="121" Name="Lübnan" />
+    <Item Value="128" Name="Lüksemburg" />
+    <Item Value="96" Name="Macaristan" />
+    <Item Value="140" Name="Macau" />
+    <Item Value="134" Name="Madagaskar" />
+    <Item Value="136" Name="Makedonya" />
+    <Item Value="147" Name="Maldivler" />
+    <Item Value="150" Name="Malezya" />
+    <Item Value="137" Name="Mali" />
+    <Item Value="145" Name="Malta" />
+    <Item Value="149" Name="Meksika" />
+    <Item Value="62" Name="Mısır" />
+    <Item Value="70" Name="Mikronezya" />
+    <Item Value="139" Name="Moğolistan" />
+    <Item Value="133" Name="Moldova" />
+    <Item Value="132" Name="Monako" />
+    <Item Value="151" Name="Mozambik" />
+    <Item Value="138" Name="Myanmar" />
+    <Item Value="152" Name="Namibya" />
+    <Item Value="160" Name="Nepal" />
+    <Item Value="154" Name="Nijer" />
+    <Item Value="156" Name="Nijerya" />
+    <Item Value="157" Name="Nikaragua" />
+    <Item Value="155" Name="Norfolk Adası" />
+    <Item Value="159" Name="Norveç" />
+    <Item Value="39" Name="Orta Afrika Cumhuriyeti" />
+    <Item Value="221" Name="Öbekistan" />
+    <Item Value="170" Name="Pakistan" />
+    <Item Value="165" Name="Panama" />
+    <Item Value="168" Name="Papua Yeni Gine" />
+    <Item Value="176" Name="Paraguay" />
+    <Item Value="166" Name="Peru" />
+    <Item Value="171" Name="Polonya" />
+    <Item Value="174" Name="Portekiz" />
+    <Item Value="173" Name="Portoriko" />
+    <Item Value="179" Name="Romanya" />
+    <Item Value="181" Name="Ruanda" />
+    <Item Value="180" Name="Rusya Federasyonu" />
+    <Item Value="122" Name="Saint Lucia" />
+    <Item Value="230" Name="Samoa" />
+    <Item Value="193" Name="San Marino" />
+    <Item Value="194" Name="Senegal" />
+    <Item Value="184" Name="Seyşeller" />
+    <Item Value="192" Name="Sierra Leone" />
+    <Item Value="187" Name="Singapur" />
+    <Item Value="191" Name="Slovak Cumhuriyeti" />
+    <Item Value="189" Name="Slovenya" />
+    <Item Value="183" Name="Solomon Adalari" />
+    <Item Value="195" Name="Somali" />
+    <Item Value="124" Name="Sri Lanka" />
+    <Item Value="185" Name="Sudan" />
+    <Item Value="196" Name="Surinam" />
+    <Item Value="199" Name="Suriye" />
+    <Item Value="182" Name="Suudi Arabistan" />
+    <Item Value="200" Name="Svaziland" />
+    <Item Value="44" Name="Şili" />
+    <Item Value="206" Name="Tacikistan" />
+    <Item Value="215" Name="Tanzanya" />
+    <Item Value="205" Name="Tayland" />
+    <Item Value="214" Name="Tayvan" />
+    <Item Value="204" Name="Togo" />
+    <Item Value="210" Name="Tonga" />
+    <Item Value="212" Name="Trinidad ve Tobago" />
+    <Item Value="209" Name="Tunus" />
+    <Item Value="201" Name="Turks ve Caicos Adası" />
+    <Item Value="213" Name="Tuvalu" />
+    <Item Value="208" Name="Türkmenistan" />
+    <Item Value="217" Name="Uganda" />
+    <Item Value="216" Name="Ukrayna" />
+    <Item Value="164" Name="Umman" />
+    <Item Value="220" Name="Uruguay" />
+    <Item Value="107" Name="Ürdün" />
+    <Item Value="222" Name="Vatikan" />
+    <Item Value="224" Name="Venezuela" />
+    <Item Value="227" Name="Vietnam" />
+    <Item Value="226" Name="Virgin Adası (ABD)" />
+    <Item Value="225" Name="Virgin Adası (İngiliz)" />
+    <Item Value="231" Name="Yemen" />
+    <Item Value="163" Name="Yeni zelanda" />
+    <Item Value="50" Name="Yeşil Burun" />
+    <Item Value="85" Name="Yunanistan" />
+    <Item Value="234" Name="Zambiya" />
+    <Item Value="235" Name="Zimbabve" />
+  </List>
+  <List Key="Cities" Value="1">
+    <Item Name="İstanbul" Value="34" />
+    <Item Name="Ankara" Value="6" />
+    <Item Name="İzmir" Value="35" />
+    <Item Name="Adana" Value="1" />
+    <Item Name="Adıyaman" Value="2" />
+    <Item Name="Afyonkarahisar" Value="3" />
+    <Item Name="Ağrı" Value="4" />
+    <Item Name="Aksaray" Value="68" />
+    <Item Name="Amasya" Value="5" />
+    <Item Name="Antalya" Value="7" />
+    <Item Name="Ardahan" Value="75" />
+    <Item Name="Artvin" Value="8" />
+    <Item Name="Aydın" Value="9" />
+    <Item Name="Balıkesir" Value="10" />
+    <Item Name="Bartın" Value="74" />
+    <Item Name="Batman" Value="72" />
+    <Item Name="Bayburt" Value="69" />
+    <Item Name="Bilecik" Value="11" />
+    <Item Name="Bingöl" Value="12" />
+    <Item Name="Bitlis" Value="13" />
+    <Item Name="Bolu" Value="14" />
+    <Item Name="Burdur" Value="15" />
+    <Item Name="Bursa" Value="16" />
+    <Item Name="Çanakkale" Value="17" />
+    <Item Name="Çankırı" Value="18" />
+    <Item Name="Çorum" Value="19" />
+    <Item Name="Denizli" Value="20" />
+    <Item Name="Diyarbakır" Value="21" />
+    <Item Name="Düzce" Value="81" />
+    <Item Name="Edirne" Value="22" />
+    <Item Name="Elazığ" Value="23" />
+    <Item Name="Erzincan" Value="24" />
+    <Item Name="Erzurum" Value="25" />
+    <Item Name="Eskişehir" Value="26" />
+    <Item Name="Gaziantep" Value="27" />
+    <Item Name="Giresun" Value="28" />
+    <Item Name="Gümüşhane" Value="29" />
+    <Item Name="Hakkari" Value="30" />
+    <Item Name="Hatay" Value="31" />
+    <Item Name="Iğdır" Value="76" />
+    <Item Name="Isparta" Value="32" />
+    <Item Name="Karabük" Value="78" />
+    <Item Name="Karaman" Value="70" />
+    <Item Name="Kars" Value="36" />
+    <Item Name="Kastamonu" Value="37" />
+    <Item Name="Kayseri" Value="38" />
+    <Item Name="Kırıkkale" Value="71" />
+    <Item Name="Kırklareli" Value="39" />
+    <Item Name="Kırşehir" Value="40" />
+    <Item Name="Kilis" Value="79" />
+    <Item Name="Kocaeli" Value="41" />
+    <Item Name="Konya" Value="42" />
+    <Item Name="Kütahya" Value="43" />
+    <Item Name="Malatya" Value="44" />
+    <Item Name="Manisa" Value="45" />
+    <Item Name="Kahramanmaraş" Value="46" />
+    <Item Name="Mardin" Value="47" />
+    <Item Name="Mersin" Value="33" />
+    <Item Name="Muğla" Value="48" />
+    <Item Name="Muş" Value="49" />
+    <Item Name="Nevşehir" Value="50" />
+    <Item Name="Niğde" Value="51" />
+    <Item Name="Ordu" Value="52" />
+    <Item Name="Osmaniye" Value="80" />
+    <Item Name="Rize" Value="53" />
+    <Item Name="Sakarya" Value="54" />
+    <Item Name="Samsun" Value="55" />
+    <Item Name="Siirt" Value="56" />
+    <Item Name="Sinop" Value="57" />
+    <Item Name="Sivas" Value="58" />
+    <Item Name="Tekirdağ" Value="59" />
+    <Item Name="Tokat" Value="60" />
+    <Item Name="Trabzon" Value="61" />
+    <Item Name="Tunceli" Value="62" />
+    <Item Name="Şanlıurfa" Value="63" />
+    <Item Name="Şırnak" Value="73" />
+    <Item Name="Uşak" Value="64" />
+    <Item Name="Van" Value="65" />
+    <Item Name="Yozgat" Value="66" />
+    <Item Name="Zonguldak" Value="67" />
+    <Item Name="Yalova" Value="77" />
+  </List>
+  <List Key="yesno">
+    <Item Name="Yes"					Value="1" />
+    <Item Name="No"					Value="0" />
+  </List>
+  <List Key="Months">
+    <Item Name="Choose" Value="" />
+    <Item Name="Ocak" Value="01" />
+    <Item Name="Şubat" Value="02" />
+    <Item Name="Mart" Value="03" />
+    <Item Name="Nisan" Value="04" />
+    <Item Name="Mayıs" Value="05" />
+    <Item Name="Haziran" Value="06" />
+    <Item Name="Temmuz" Value="07" />
+    <Item Name="Ağustos" Value="08" />
+    <Item Name="Eylül" Value="09" />
+    <Item Name="Ekim" Value="10" />
+    <Item Name="Kasım" Value="11" />
+    <Item Name="Aralık" Value="12" />
+  </List>
+</Lists>
