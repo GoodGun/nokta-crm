@@ -41,7 +41,7 @@ public partial class CustomerEdit : BasePage
                 this.txtCode3.Text = oCustomer.Code3;
                 this.ddlBillingAddressID.Select(oCustomer.BillingAddressID);
                 this.ddlDeliveryAddressID.Select(oCustomer.DeliveryAddressID);
-                this.dtUpdateDate.SelectedDate = oCustomer.UpdateDate;
+                //this.dtUpdateDate.SelectedDate = oCustomer.UpdateDate;
             }
         }
     }
@@ -77,7 +77,8 @@ oCustomer.CreateDate = DateTime.Now;
         oCustomer.Code3 = this.txtCode3.Text;
         oCustomer.BillingAddressID = this.ddlBillingAddressID.SelectedValue.ToInt();
         oCustomer.DeliveryAddressID = this.ddlDeliveryAddressID.SelectedValue.ToInt();
-        oCustomer.UpdateDate = this.dtUpdateDate.SelectedDate;
+        //oCustomer.UpdateDate = this.dtUpdateDate.SelectedDate;
+        oCustomer.UpdateDate = DateTime.Now;
         bool bSuccess = Updating ? CustomerManager.UpdateCustomer(oCustomer) : CustomerManager.InsertCustomer(oCustomer);
 
         if (bSuccess)

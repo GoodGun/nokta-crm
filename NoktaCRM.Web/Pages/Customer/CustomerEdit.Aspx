@@ -16,14 +16,14 @@
                     <div class="panel-body form-horizontal">
                         <div class="form-group">
                             <label class="col-md-3 control-label">
-                                <web:MLiteral keyData="form.CustomerCode" ID="mlCustomerCode" runat="server"></web:MLiteral></label>
+                                Müsteri No</label>
                             <div class="col-md-9">
                                 <web:MTextbox CssClass="form-control" keyTooltip="tooltip.CustomerCode" ID="txtCustomerCode" runat="server" MaxLength="10"></web:MTextbox>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-md-3 control-label">
-                                <web:MLiteral keyData="form.ReferenceNo" ID="mlReferenceNo" runat="server"></web:MLiteral></label>
+                                Referans No</label>
                             <div class="col-md-9">
                                 <web:MTextbox CssClass="form-control" keyTooltip="tooltip.ReferenceNo" ID="txtReferenceNo" runat="server" MaxLength="50"></web:MTextbox>
                             </div>
@@ -86,21 +86,21 @@
                         </div>
                         <div class="form-group">
                             <label class="col-md-3 control-label">
-                                <web:MLiteral keyData="form.Code1" ID="mlCode1" runat="server"></web:MLiteral></label>
+                                Kod 1</label>
                             <div class="col-md-9">
                                 <web:MTextbox CssClass="form-control" keyTooltip="tooltip.Code1" ID="txtCode1" runat="server" MaxLength="150"></web:MTextbox>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-md-3 control-label">
-                                <web:MLiteral keyData="form.Code2" ID="mlCode2" runat="server"></web:MLiteral></label>
+                                Kod 2</label>
                             <div class="col-md-9">
                                 <web:MTextbox CssClass="form-control" keyTooltip="tooltip.Code2" ID="txtCode2" runat="server" MaxLength="150"></web:MTextbox>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-md-3 control-label">
-                                <web:MLiteral keyData="form.Code3" ID="mlCode3" runat="server"></web:MLiteral></label>
+                                Kod 3</label>
                             <div class="col-md-9">
                                 <web:MTextbox CssClass="form-control" keyTooltip="tooltip.Code3" ID="txtCode3" runat="server" MaxLength="150"></web:MTextbox>
                             </div>
@@ -118,14 +118,7 @@
                             <div class="col-md-9">
                                 <web:MListBox CssClass="form-control" Rows="1" ID="ddlDeliveryAddressID" runat="server"></web:MListBox><web:MReqValidator CssClass="vld" ID="rfvDeliveryAddressID" runat="server" ControlToValidate="ddlDeliveryAddressID" keyError="req.DeliveryAddressID"></web:MReqValidator>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-md-3 control-label">
-                                <web:MLiteral keyData="form.UpdateDate" ID="mlUpdateDate" runat="server"></web:MLiteral></label>
-                            <div class="col-md-9">
-                                <web:MDatePicker ID="dtUpdateDate" runat="server" AllowNull="False" Width="75px"></web:MDatePicker>
-                            </div>
-                        </div>
+                        </div>                        
                         <div class="panel-footer text-right">
                             <web:MButton ID="btnSubmit" CssClass="btn btn-primary" runat="server" keyText="nav.ok"
                                 OnClick="btnSubmit_Click" />

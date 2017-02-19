@@ -50,8 +50,8 @@ public partial class ContactDetail : BasePage
 
             }
         }
-        tblData.Visible = visible;
-        if (!visible)
-            Warn(ResourceManager.GetResource("form.nodata"));
+        //tblData.Visible = visible;
+        //if (!visible)
+        //    Warn(ResourceManager.GetResource("form.nodata"));
     }
 }
